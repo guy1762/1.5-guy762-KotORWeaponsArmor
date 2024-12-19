@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+
+
+
+	
+
+	<!--energycells-->
+	
+	
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_vblade</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_vblade</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>22</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.25</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>18</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>0.75</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_vblade</defName>
+		<label>enhanced vibration cell</label>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_vblade</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_vblade</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>22</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.25</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>18</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>0.75</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_vblade</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_vblade</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>22</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.25</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>18</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>0.75</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_vsword</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_vsword</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>24</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.25</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>0.75</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_vsword</defName>
+		<label>enhanced vibration cell</label>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_vsword</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_vsword</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>24</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.25</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>0.75</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_vsword</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_vsword</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>24</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.25</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>0.75</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_vdblade</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_vdblade</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>22</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>2</chanceFactor>
+			<cooldownTime>1.0</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_vdblade</defName>
+		<label>enhanced vibration cell</label>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_vdblade</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_vdblade</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>22</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>2</chanceFactor>
+			<cooldownTime>1.0</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_vdblade</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_vdblade</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>22</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>2</chanceFactor>
+			<cooldownTime>1.0</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_vaxe</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_vaxe</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>30</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>4.5</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_vaxe</defName>
+		<label>enhanced vibration cell</label>
+		<kind>guy762_slot_cell_vaxe</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_vaxe</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_vaxe</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>30</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>4.5</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_vaxe</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_vaxe</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>30</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>4.5</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		   </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_vglaive</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_vglaive</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>24</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.5</chanceFactor>
+			<cooldownTime>1</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>3</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_vglaive</defName>
+		<label>enhanced vibration cell</label>
+		<kind>guy762_slot_cell_vglaive</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_vglaive</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_vglaive</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>24</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.5</chanceFactor>
+			<cooldownTime>1</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>3</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_vglaive</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_vglaive</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<!---->
+			<power>24</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1.5</chanceFactor>
+			<cooldownTime>1</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<!---->
+			<power>20</power>
+			<armorPenetration>0.25</armorPenetration>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>3</cooldownTime>
+			<extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_sbaton</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_sbaton</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>shaft</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<!---->
+			<power>14</power>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+					<def>Stun</def>
+					<amount>10</amount>
+				</li>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>tip</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<!---->
+			<power>8</power>
+			<chanceFactor>0.25</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_sbaton</defName>
+		<label>enhanced vibration cell</label>
+		<kind>guy762_slot_cell_sbaton</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_sbaton</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_sbaton</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>shaft</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<!---->
+			<power>14</power>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+					<def>Stun</def>
+					<amount>10</amount>
+				</li>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>tip</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<!---->
+			<power>8</power>
+			<chanceFactor>0.25</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_sbaton</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_sbaton</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>shaft</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<!---->
+			<power>14</power>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+					<def>Stun</def>
+					<amount>10</amount>
+				</li>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>tip</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<!---->
+			<power>8</power>
+			<chanceFactor>0.25</chanceFactor>
+			<cooldownTime>1.8</cooldownTime>
+			  <extraMeleeDamages>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			  </extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_ion_estaff</defName>
+		<label>ion cell</label>
+		<kind>guy762_slot_cell_estaff</kind>
+		<path>NoVisual</path>
+		<description>Adds ion damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<!---->
+			<power>16</power>
+			<chanceFactor>2</chanceFactor>
+			<cooldownTime>1.0</cooldownTime>
+			<extraMeleeDamages>
+			  <li>
+				<def>Stun</def>
+				<amount>4</amount>
+			  </li>
+			  <li>
+				<def>guy762_MeleeDamage_electrical</def>
+				<amount>10</amount>
+			  </li>
+				<li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			</extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>tip</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<!---->
+			<power>8</power>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+			  <li>
+				<def>guy762_MeleeDamage_electrical</def>
+				<amount>10</amount>
+			  </li>
+			  <li>
+				  <def>guy762_MeleeDamage_ion</def>
+				  <amount>4</amount>
+				</li>
+			</extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_ion>1</guy762_ecellitem_ion>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_vibration_estaff</defName>
+		<label>enhanced vibration cell</label>
+		<kind>guy762_slot_cell_estaff</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_ecellitem_vibration>1</guy762_ecellitem_vibration>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_energy_estaff</defName>
+		<label>enhanced energy cell</label>
+		<kind>guy762_slot_cell_estaff</kind>
+		<path>NoVisual</path>
+		<description>Adds energy damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<!---->
+			<power>16</power>
+			<chanceFactor>2</chanceFactor>
+			<cooldownTime>1.0</cooldownTime>
+			<extraMeleeDamages>
+			  <li>
+				<def>Stun</def>
+				<amount>4</amount>
+			  </li>
+			  <li>
+				<def>guy762_MeleeDamage_electrical</def>
+				<amount>10</amount>
+			  </li>
+				<li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			 </extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>tip</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<!---->
+			<power>8</power>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+			  <li>
+				<def>guy762_MeleeDamage_electrical</def>
+				<amount>10</amount>
+			  </li>
+			  <li>
+				  <def>guy762_MeleeDamage_energy</def>
+				  <amount>6</amount>
+				</li>
+			</extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_ecellitem_energy>1</guy762_ecellitem_energy>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_cellmod_sonic_estaff</defName>
+		<label>sonic discharge cell</label>
+		<kind>guy762_slot_cell_estaff</kind>
+		<path>NoVisual</path>
+		<description>Adds sonic damage.</description>
+		<massFactor>0.2</massFactor>
+		<toolFactors>
+		  <li>
+			<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<!---->
+			<power>16</power>
+			<chanceFactor>2</chanceFactor>
+			<cooldownTime>1.0</cooldownTime>
+			<extraMeleeDamages>
+			  <li>
+				<def>Stun</def>
+				<amount>4</amount>
+			  </li>
+			  <li>
+				<def>guy762_MeleeDamage_electrical</def>
+				<amount>10</amount>
+			  </li>
+				<li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			</extraMeleeDamages>
+		  </li>
+		  <li>
+			<label>tip</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<!---->
+			<power>8</power>
+			<chanceFactor>1</chanceFactor>
+			<cooldownTime>2.4</cooldownTime>
+			<extraMeleeDamages>
+			  <li>
+				<def>guy762_MeleeDamage_electrical</def>
+				<amount>10</amount>
+			  </li>
+			  <li>
+				  <def>guy762_MeleeDamage_sonic</def>
+				  <amount>4</amount>
+				</li>
+			</extraMeleeDamages>
+		  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_ecellitem_sonic>1</guy762_ecellitem_sonic>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+</Defs>

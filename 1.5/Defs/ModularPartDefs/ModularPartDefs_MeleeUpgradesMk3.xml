@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	
+	<!--edges-->
+	
+	  
+	  <!--ModularWeapons.ModularPartDef>
+		<defName>guy762_edgemod_ionite</defName>
+		<label>Ionite edge</label>
+		<kind>guy762_slot_edge</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<toolFactor>
+		  <label>blade</label>
+		  <capacities>
+			<li>Cut</li>
+			<li>Stab</li>
+		  </capacities>
+		  <power>23</power>
+		  <cooldownTime>2.5</cooldownTime>
+		  <extraMeleeDamages>
+			<li>
+			  <def>guy762_MeleeDamage_ion</def>
+			  <amount>4</amount>
+			</li>
+		  </extraMeleeDamages>
+		</toolFactor>
+		<modExtensions MayRequire="smartkar.athenaframework">
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.25</modifier>
+				</li>
+				<li MayRequire="Killathon.AndroidTiersReforged">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.25</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		</modExtensions>
+	  </ModularWeapons.ModularPartDef-->
+	  
+	  <!--ModularWeapons.ModularPartDef>
+		<defName>guy762_edgemod_ostrine</defName>
+		<label>Ostrine edge</label>
+		<kind>guy762_slot_edge</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<toolFactor>
+		  <label>blade</label>
+		  <capacities>
+			<li>Cut</li>
+			<li>Stab</li>
+		  </capacities>
+		  <power>23</power>
+		  <cooldownTime>2.5</cooldownTime>
+		  <extraMeleeDamages>
+			<li>
+			  <def>Frostbite</def>
+			  <amount>6</amount>
+			</li>
+		  </extraMeleeDamages>
+		</toolFactor>
+	  </ModularWeapons.ModularPartDef-->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_edgemod_devaronian</defName>
+		<label>Devaronian edge</label>
+		<kind>guy762_slot_edge</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.4</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_edgeitem_devaronian>1</guy762_edgeitem_devaronian>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_edgemod_neutronium</defName>
+		<label>Neutronium edge</label>
+		<kind>guy762_slot_edge</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.2</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_edgeitem_neutronium>1</guy762_edgeitem_neutronium>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_edgemod_mullinine</defName>
+		<label>Mullinine edge</label>
+		<kind>guy762_slot_edge</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_edgeitem_mullinine>1</guy762_edgeitem_mullinine>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_edgemod_quadranium</defName>
+		<label>Quadranium edge</label>
+		<kind>guy762_slot_edge</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.6</MeleeDamageMultiplierFactor>
+		<costList>
+		  <guy762_edgeitem_quadranium>1</guy762_edgeitem_quadranium>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+
+	
+	<!--grips-->
+	
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_gripmod_contoured</defName>
+		<label>contoured grip</label>
+		<kind>guy762_slot_grip</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+		<MeleeDamageMultiplierFactor>-0.1</MeleeDamageMultiplierFactor>
+		<costList>
+		  <guy762_gripitem_contoured>1</guy762_gripitem_contoured>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_gripmod_agrinium</defName>
+		<label>Agrinium grip</label>
+		<kind>guy762_slot_grip</kind>
+		<path>NoVisual</path>
+		<massFactor>-0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<costList>
+		  <guy762_gripitem_agrinium>1</guy762_gripitem_agrinium>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_gripmod_basket</defName>
+		<label>basket hilt</label>
+		<kind>guy762_slot_grip</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeDodgeChanceFactor>0.2</MeleeDodgeChanceFactor>
+		<costList>
+		  <guy762_gripitem_basket>1</guy762_gripitem_basket>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_gripmod_nagai</defName>
+		<label>Nagai grip</label>
+		<kind>guy762_slot_grip</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+		<MeleeDodgeChanceFactor>0.1</MeleeDodgeChanceFactor>
+		<costList>
+		  <guy762_gripitem_nagai>1</guy762_gripitem_nagai>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_gripmod_zabrak</defName>
+		<label>Zabrak grip</label>
+		<kind>guy762_slot_grip</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<MeleeDodgeChanceFactor>-0.2</MeleeDodgeChanceFactor>
+		<costList>
+		  <guy762_gripitem_zabrak>1</guy762_gripitem_zabrak>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	 
+	
+	
+	
+	  <!--ModularWeapons.ModularPartDef>
+		<defName>guy762_alloymod_steel</defName>
+		<label>Steel core</label>
+		<kind>guy762_slot_alloy</kind>
+		<path>NoVisual</path>
+		<costList>
+		  <Steel>5</Steel>
+		</costList>
+	  </ModularWeapons.ModularPartDef-->
+	
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_alloymod_bronzium</defName>
+		<label>Bronzium core</label>
+		<kind>guy762_slot_alloy</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeCooldownMultiplierFactor>-0.1</MeleeCooldownMultiplierFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<costList>
+		  <KOTOR_AlloyBronzium>15</KOTOR_AlloyBronzium>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_alloymod_uranium</defName>
+		<label>Uranium core</label>
+		<kind>guy762_slot_alloy</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<MeleeCooldownMultiplierFactor>0.1</MeleeCooldownMultiplierFactor>
+		<MeleeDamageMultiplierFactor>0.1</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.2</MeleeAverageAPFactor>
+		<costList>
+		  <Uranium>15</Uranium>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_alloymod_durasteel</defName>
+		<label>Durasteel core</label>
+		<kind>guy762_slot_alloy</kind>
+		<path>NoVisual</path>
+		<massFactor>0.3</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<costList>
+		  <KOTOR_AlloyDurasteel>15</KOTOR_AlloyDurasteel>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_alloymod_plasteel</defName>
+		<label>Plasteel core</label>
+		<kind>guy762_slot_alloy</kind>
+		<path>NoVisual</path>
+		<massFactor>-0.1</massFactor>
+		<MeleeCooldownMultiplierFactor>-0.2</MeleeCooldownMultiplierFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_alloymod_beskar</defName>
+		<label>Beskar core</label>
+		<kind>guy762_slot_alloy</kind>
+		<path>NoVisual</path>
+		<massFactor>0.8</massFactor>
+		<MeleeCooldownMultiplierFactor>0.2</MeleeCooldownMultiplierFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.5</MeleeAverageAPFactor>
+		<costList>
+		  <KOTOR_IngotBeskar>15</KOTOR_IngotBeskar>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	
+</Defs>

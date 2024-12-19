@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+
+
+
+		<!--lens-->
+	
+	
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_lens_adegan</defName>
+		<label>Adegan lens</label>
+		<kind>guy762_slot_lens</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.4</MeleeDamageMultiplierFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_lens_pontite</defName>
+		<label>Pontite lens</label>
+		<kind>guy762_slot_lens</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_lens_ossus</defName>
+		<label>Ossus dueling lens</label>
+		<kind>guy762_slot_lens</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<!--+3 deflect-->
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_lens_byrothsis</defName>
+		<label>Byrothsis lens</label>
+		<kind>guy762_slot_lens</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<!-- -3 deflect-->
+		<MeleeDamageMultiplierFactor>0.1</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_lens_vibration</defName>
+		<label>vibration lens</label>
+		<kind>guy762_slot_lens</kind>
+		<path>NoVisual</path>
+		<massFactor>0.1</massFactor>
+		<MeleeDamageMultiplierFactor>0.6</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>-0.1</MeleeHitChanceFactor>
+		<MeleeDodgeChanceFactor>-0.1</MeleeDodgeChanceFactor>
+	  </ModularWeapons.ModularPartDef>
+			
+	
+	<!--emitter-->
+	
+	
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_emitter_deflection</defName>
+		<label>deflection emitter</label>
+		<kind>guy762_slot_emitter</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<!--+3 deflect-->
+		<MeleeDodgeChanceFactor>0.1</MeleeDodgeChanceFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_emitter_fencing</defName>
+		<label>fencing emitter</label>
+		<kind>guy762_slot_emitter</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<!-- -2 deflect-->
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeDodgeChanceFactor>0.2</MeleeDodgeChanceFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_emitter_disruption</defName>
+		<label>disruption emitter</label>
+		<kind>guy762_slot_emitter</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDodgeChanceFactor>-0.1</MeleeDodgeChanceFactor>
+		<toolFactor>
+		  <label>blade</label>
+		  <capacities>
+			<li>guy762_ToolCapacity_SaberSlash</li>
+			<li>guy762_ToolCapacity_SaberStab</li>
+		  </capacities>
+		  <power>26</power>
+		  <cooldownTime>2.5</cooldownTime>
+		  <extraMeleeDamages>
+			<li>
+			  <def>Stun</def>
+			  <amount>5</amount>
+			</li>
+		  </extraMeleeDamages>
+		</toolFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_emitter_phobium</defName>
+		<label>Phobium emitter</label>
+		<kind>guy762_slot_emitter</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDodgeChanceFactor>-0.3</MeleeDodgeChanceFactor>
+		<toolFactor>
+		  <label>blade</label>
+		  <capacities>
+			<li>guy762_ToolCapacity_SaberSlash</li>
+			<li>guy762_ToolCapacity_SaberStab</li>
+		  </capacities>
+		  <power>26</power>
+		  <cooldownTime>2.5</cooldownTime>
+		  <extraMeleeDamages>
+			<li>
+			  <def>Stun</def>
+			  <amount>12</amount>
+			</li>
+		  </extraMeleeDamages>
+		</toolFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  <!--power cell-->
+	
+	
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_sabercell_diatium</defName>
+		<label>Diatium energy cell</label>
+		<kind>guy762_slot_sabercell</kind>
+		<path>NoVisual</path>
+		<massFactor>0.3</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_sabercell_ion</defName>
+		<label>ion energy cell</label>
+		<kind>guy762_slot_sabercell</kind>
+		<path>NoVisual</path>
+		<massFactor>0.3</massFactor>
+		<toolFactor>
+		  <label>blade</label>
+		  <capacities>
+			<li>guy762_ToolCapacity_SaberSlash</li>
+			<li>guy762_ToolCapacity_SaberStab</li>
+		  </capacities>
+		  <power>26</power>
+		  <cooldownTime>2.5</cooldownTime>
+		  <extraMeleeDamages>
+			<li>
+			  <def>guy762_MeleeDamage_ion</def>
+			  <amount>4</amount>
+			</li>
+		  </extraMeleeDamages>
+		</toolFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_sabercell_telgorn</defName>
+		<label>Telgorn jolt cell</label>
+		<kind>guy762_slot_sabercell</kind>
+		<path>NoVisual</path>
+		<massFactor>0.3</massFactor>
+		<toolFactor>
+		  <label>blade</label>
+		  <capacities>
+			<li>guy762_ToolCapacity_SaberSlash</li>
+			<li>guy762_ToolCapacity_SaberStab</li>
+		  </capacities>
+		  <power>26</power>
+		  <cooldownTime>2.5</cooldownTime>
+		  <extraMeleeDamages>
+			<li>
+			  <def>EMP</def>
+			  <amount>8</amount>
+			</li>
+		  </extraMeleeDamages>
+		</toolFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	 
+</Defs>

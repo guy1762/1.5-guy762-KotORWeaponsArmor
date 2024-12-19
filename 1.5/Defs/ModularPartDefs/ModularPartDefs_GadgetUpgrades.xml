@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_vibroblade</defName>
+    <label>retractable Vibroblade</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional melee attack tool.</description>
+	<massFactor>0.4</massFactor>
+	<toolFactor>
+	  <label>blade</label>
+	  <capacities>
+		<li>Cut</li>
+		<li>Stab</li>
+	  </capacities>
+	  <power>18</power>
+	  <cooldownTime>2.5</cooldownTime>
+	  <chanceFactor>100</chanceFactor>
+	  <soundMeleeHit>kotorsound_wristblade</soundMeleeHit>
+	  <soundMeleeMiss>kotorsound_wristblade</soundMeleeMiss>
+	</toolFactor>
+    <costList>
+	  <Steel>20</Steel>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_trishot</defName>
+    <label>tri-shot</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires three blaster bolts at once.</description>
+	<massFactor>0.4</massFactor>
+	<underbarrelVerb>
+		<label>tri-shot blaster</label>
+		<description>Fire a cluster of blaster bolts.</description>
+		<iconPath>Items/droidweapon_1</iconPath>
+		<commandIcon>Items/droidweapon_1</commandIcon>
+		<verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORBlasterBolt_default</defaultProjectile>
+		<warmupTime>1.5</warmupTime>
+		<range>23</range>
+		<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+		<burstShotCount>3</burstShotCount>
+		<soundCast>kotorsound_heavy2</soundCast>
+		<soundCastTail>GunTail_Medium</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_DroidWeapon_trishot>1</guy762_DroidWeapon_trishot>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_stundart</defName>
+    <label>paralysis needler</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires paralyzing darts.</description>
+	<massFactor>0.2</massFactor>
+	<underbarrelVerb>
+		<label>paralysis needler</label>
+		<description>Fire a single stun dart.</description>
+		<iconPath>Items/droidweapon/droidweapon_stun</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_stun</commandIcon>
+		<verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORDart_stun</defaultProjectile>
+		<warmupTime>3</warmupTime>
+		<defaultCooldownTime>4</defaultCooldownTime>
+		<range>23</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast MayRequire="Ludeon.RimWorld.Biotech">Shot_Spiner</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_DroidWeapon_stundart>1</guy762_DroidWeapon_stundart>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>guy762_wristgun_toxdart</defName>
+    <label>toxic needler</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires toxic darts.</description>
+	<massFactor>0.2</massFactor>
+	<underbarrelVerb>
+		<label>toxic needler</label>
+		<description>Fire a single toxic dart.</description>
+		<iconPath>Items/droidweapon/droidweapon_tox</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_tox</commandIcon>
+		<verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORDart_toxic</defaultProjectile>
+		<warmupTime>3</warmupTime>
+		<defaultCooldownTime>4</defaultCooldownTime>
+		<range>23</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast MayRequire="Ludeon.RimWorld.Biotech">Shot_Spiner</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_DroidWeapon_toxdart>1</guy762_DroidWeapon_toxdart>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_microrocket</defName>
+    <label>micro-rocket launcher</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires a burst of micro-rockets.</description>
+	<massFactor>0.6</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<underbarrelVerb>
+		<label>micro-rocket launcher</label>
+		<description>Fire a burst of micro-rockets.</description>
+		<iconPath>Items/droidweapon/droidweapon_microrocket</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_microrocket</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORRocket_micro</defaultProjectile>
+		<warmupTime>3</warmupTime>
+		<range>25</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>3</burstShotCount>
+		<soundCast>kotorsound_rocket</soundCast>
+		<soundCastTail>GunTail_Medium</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+	</underbarrelVerb>
+	<costList>
+	  <guy762_DroidWeapon_microrocket>1</guy762_DroidWeapon_microrocket>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_seeker</defName>
+    <label>seeker-missile launcher</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires a homing seeker-missile.</description>
+	<massFactor>0.8</massFactor>
+	<underbarrelVerb>
+		<label>seeker-missile launcher</label>
+		<description>Fire a homing seeker-missile.</description>
+		<iconPath>Items/droidweapon/droidweapon_seeker</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_seeker</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORMissile_seeker</defaultProjectile>
+		<warmupTime>4</warmupTime>
+		<range>25</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>kotorsound_rocket</soundCast>
+		<soundCastTail>GunTail_Medium</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_DroidWeapon_seekerrocket>1</guy762_DroidWeapon_seekerrocket>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	<!--power weapons-->
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_railgun</defName>
+    <label>rail gun</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires an armor penetrating high-velocity projectile.</description>
+	<massFactor>0.6</massFactor>
+	<underbarrelVerb>
+		<label>rail gun</label>
+		<description>Fire a single bolt with increased armor penetration.</description>
+		<iconPath>Items/droidweapon/droidweapon_railgun</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_railgun</commandIcon>
+		<verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORRailgun</defaultProjectile>
+		<warmupTime>4</warmupTime>
+		<defaultCooldownTime>4</defaultCooldownTime>
+		<range>25</range>
+		<ticksBetweenBurstShots>24</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>kotorsound_railgun</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_DroidWeapon_railgun>1</guy762_DroidWeapon_railgun>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>guy762_wristgun_flamethrower</defName>
+    <label>flamethrower</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which spews a burst of flame over a short area.</description>
+	<massFactor>0.8</massFactor>
+	<underbarrelVerb>
+		<label>flamethrower</label>
+		<description>Shoot a burst of flame.</description>
+		<iconPath>Items/droidweapon/droidweapon_flame</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_flame</commandIcon>
+		<verbClass>Verb_SpewFire</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<warmupTime>1</warmupTime>
+		<defaultCooldownTime>5</defaultCooldownTime>
+		<range>5</range>
+		<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+		<burstShotCount>10</burstShotCount>
+		<soundCast>kotorsound_flamethrower</soundCast>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<ai_AvoidFriendlyFireRadius>6.9</ai_AvoidFriendlyFireRadius>
+		<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+		<onlyManualCast>true</onlyManualCast>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_DroidWeapon_flamethrower>1</guy762_DroidWeapon_flamethrower>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_saberdart</defName>
+    <label>Saber-dart needler</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires a single highly-poisonous dart.</description>
+	<massFactor>0.2</massFactor>
+	<underbarrelVerb>
+		<label>Saber-dart needler</label>
+		<description>Fire a single poison dart.</description>
+		<iconPath>Items/droidweapon/droidweapon_dartsaber</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_dartsaber</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORDart_saber</defaultProjectile>
+		<warmupTime>3</warmupTime>
+		<defaultCooldownTime>4</defaultCooldownTime>
+		<range>28</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast MayRequire="Ludeon.RimWorld.Biotech">Shot_Spiner</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_WristGunUpgrade_saberdart>1</guy762_WristGunUpgrade_saberdart>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_wristgun_whistlingbird</defName>
+    <label>"Whistling Birds"</label>
+    <kind>guy762_slot_wristgun</kind>
+	<description>Adds an additional attack verb which fires a burst of homing micro-missiles.</description>
+	<massFactor>0.6</massFactor>
+	<underbarrelVerb>
+		<label>"Whistling Birds" launcher</label>
+		<description>Fire a burst of homing micro-missiles.</description>
+		<iconPath>Items/droidweapon/droidweapon_whistlingbird</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_whistlingbird</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORMissile_whistlingbird</defaultProjectile>
+		<warmupTime>3</warmupTime>
+		<range>17</range>
+		<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+		<burstShotCount>8</burstShotCount>
+		<soundCast>kotorsound_smallrocket</soundCast>
+		<soundCastTail>GunTail_Medium</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+	</underbarrelVerb>
+    <costList>
+	  <guy762_WristGunUpgrade_whistlingbird>1</guy762_WristGunUpgrade_whistlingbird>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_missile_highex</defName>
+    <label>high-ex missile</label>
+    <kind>guy762_slot_missile</kind>
+	<description>Adds an additional attack verb which fires an explosive missile.</description>
+	<massFactor>4</massFactor>
+	<underbarrelVerb>		
+		<label>high-ex missile</label>
+		<description>Fire an explosive missile.</description>
+		<iconPath>Items/Rockets/rocket_ex/rocket_ex_a</iconPath>
+		<commandIcon>Items/Rockets/rocket_ex/rocket_ex_a</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORMissile_highex</defaultProjectile>
+		<warmupTime>2</warmupTime>
+		<range>28</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>kotorsound_missile</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+		<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	</underbarrelVerb>
+	
+	<costList>
+	  <guy762_RocketItem_highex>1</guy762_RocketItem_highex>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_missile_plasma</defName>
+    <label>plasma missile</label>
+    <kind>guy762_slot_missile</kind>
+	<description>Adds an additional attack verb which fires an incendiary missile.</description>
+	<massFactor>4</massFactor>
+	<underbarrelVerb>		
+		<label>plasma missile</label>
+		<description>Fire a plasma missile.</description>
+		<iconPath>Items/Rockets/rocket_plasma/rocket_plasma_a</iconPath>
+		<commandIcon>Items/Rockets/rocket_plasma/rocket_plasma_a</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORMissile_plasma</defaultProjectile>
+		<warmupTime>2</warmupTime>
+		<range>28</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>kotorsound_missile</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+		<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	</underbarrelVerb>
+	
+	<costList>
+	  <guy762_RocketItem_plasma>1</guy762_RocketItem_plasma>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_missile_ion</defName>
+    <label>ion missile</label>
+    <kind>guy762_slot_missile</kind>
+	<description>Adds an additional attack verb which fires an ionizing missile.</description>
+	<massFactor>4</massFactor>
+	<underbarrelVerb>		
+		<label>ion missile</label>
+		<description>Fire an ion missile.</description>
+		<iconPath>Items/Rockets/rocket_ion/rocket_ion_a</iconPath>
+		<commandIcon>Items/Rockets/rocket_ion/rocket_ion_a</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORMissile_ion</defaultProjectile>
+		<warmupTime>2</warmupTime>
+		<range>28</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>kotorsound_missile</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+		<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	</underbarrelVerb>
+	
+	<costList>
+	  <guy762_RocketItem_ion>1</guy762_RocketItem_ion>
+	</costList>
+	<isRare>true</isRare>
+	
+	<modExtensions>
+		<li MayRequire="smartkar.athenaframework" Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	</modExtensions>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_missile_buster</defName>
+    <label>Buster missile</label>
+    <kind>guy762_slot_missile</kind>
+	<description>Adds an additional attack verb which fires an anti-armor missile.</description>
+	<massFactor>4</massFactor>
+	<underbarrelVerb>		
+		<label>buster missile</label>
+		<description>Fire an anti-armor missile.</description>
+		<iconPath>Items/Rockets/rocket_buster/rocket_buster_a</iconPath>
+		<commandIcon>Items/Rockets/rocket_buster/rocket_buster_a</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORMissile_buster</defaultProjectile>
+		<warmupTime>2</warmupTime>
+		<range>28</range>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>kotorsound_bigmissile</soundCast>
+		<soundCastTail>GunTail_Heavy</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+		<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	</underbarrelVerb>
+	
+    <costList>
+	  <guy762_RocketItem_buster>1</guy762_RocketItem_buster>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+
+  
+</Defs>

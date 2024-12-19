@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<Operation MayRequire="EBSG.Framework" Class="XmlExtensions.OptionalPatch">
+        <modId>guy762.KotORWeapons</modId>
+        <key>KotORWeaponsSettings_EBSGSkillImplantRework</key>
+        <defaultValue>true</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationSequence">
+			  <operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="guy762_ImplantHediffPkg_skills"]/stages</xpath>
+					<value>
+						<comps>
+						  <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+								<skillChanges>
+									<li>
+										<skill>Shooting</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Melee</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Construction</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Mining</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Cooking</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Plants</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Animals</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Crafting</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Artistic</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Medicine</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Social</skill>
+										<skillChange>1</skillChange>
+									</li>
+									<li>
+										<skill>Intellectual</skill>
+										<skillChange>1</skillChange>
+									</li>
+								</skillChanges>
+							</li>
+						</comps>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="guy762_ImplantHediffImp_skills"]/stages</xpath>
+					<value>
+						<comps>
+						  <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+								<skillChanges>
+									<li>
+										<skill>Shooting</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Melee</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Construction</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Mining</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Cooking</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Plants</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Animals</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Crafting</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Artistic</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Medicine</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Social</skill>
+										<skillChange>2</skillChange>
+									</li>
+									<li>
+										<skill>Intellectual</skill>
+										<skillChange>2</skillChange>
+									</li>
+								</skillChanges>
+							</li>
+						</comps>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="guy762_ImplantHediffSys_skills"]/stages</xpath>
+					<value>
+						<comps>
+						  <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+								<skillChanges>
+									<li>
+										<skill>Shooting</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Melee</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Construction</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Mining</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Cooking</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Plants</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Animals</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Crafting</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Artistic</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Medicine</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Social</skill>
+										<skillChange>4</skillChange>
+									</li>
+									<li>
+										<skill>Intellectual</skill>
+										<skillChange>4</skillChange>
+									</li>
+								</skillChanges>
+							</li>
+						</comps>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="guy762_ImplantHediffDPkg_skills"]/stages</xpath>
+					<value>
+						<comps>
+						  <li Class="EBSGFramework.HediffCompProperties_TemporarySkillChange">
+								<skillChanges>
+									<li>
+										<skill>Shooting</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Melee</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Construction</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Mining</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Cooking</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Plants</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Animals</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Crafting</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Artistic</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Medicine</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Social</skill>
+										<skillChange>6</skillChange>
+									</li>
+									<li>
+										<skill>Intellectual</skill>
+										<skillChange>6</skillChange>
+									</li>
+								</skillChanges>
+							</li>
+						</comps>
+					</value>
+				</li>
+				
+			  </operations>
+			</Operation>
+        </caseTrue>
+    </Operation>
+
+    
+
+</Patch>

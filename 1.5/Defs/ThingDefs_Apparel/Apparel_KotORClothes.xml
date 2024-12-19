@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_scum</defName>
+		<label>clothing, rustic</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/scum/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(190,155,120)</colorTwo> <!-- beige -->
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		
+		<costList>
+		  <Cloth>75</Cloth>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>SaV_apparel_thug</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/scum/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(70,70,75)</only> <!-- black -->
+				</li>
+				<li>
+					<weight>7</weight>
+					<only>(150,195,230)</only> <!--sky blue-->
+				</li>
+				<li>
+					<weight>4</weight>
+					<only>(240,210,70)</only> <!--flight suit yellow-->
+				</li>
+				<li>
+					<weight>4</weight>
+					<only>(250,250,250)</only> <!-- white -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  <ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_scumII</defName>
+		<label>clothing, rugged</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/scum/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		
+		<costList>
+		  <Cloth>75</Cloth>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>KotORClothing_civilian_villager</li>
+			<li>KotORClothing_civilian_hooded</li>
+			<li>SaV_apparel_thug</li>
+			<li>SithRem_apparel_undersuit</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/scum/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>false</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(190,155,120)</only> <!-- beige -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(120,125,110)</only> <!-- drab green -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(90,85,65)</only> <!-- grease green -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(160,150,105)</only> <!-- dijon yellow -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(70,50,30)</only> <!-- brown -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_civilian</defName>
+		<label>clothing, plain</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/civilian/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		
+		<costList>
+		  <Cloth>75</Cloth>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>KotORClothing_civilian_mid</li>
+			<li>KotORClothing_smuggler</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/civilian/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(160,170,175)</only> <!-- slate -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(235,255,255)</only> <!-- T3's teal -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,235)</only> <!-- off-white -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,125,110)</only> <!-- drab -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(210,190,140)</only> <!-- beige -->
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(145,195,230)</only> <!-- blue -->
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(85,85,90)</only> <!-- black -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_smuggler</defName>
+		<label>clothing, loose</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/smuggler/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(140,0,0)</colorTwo> <!-- crimson -->
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <Cloth>75</Cloth>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>KotORClothing_smuggler</li>
+			<li>KotORClothing_civilian_punk</li>
+			<li>SaV_apparel_thug</li>
+			<li>SaV_apparel_crimelord</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/smuggler/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(210,190,140)</only> <!-- beige -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(235,255,255)</only> <!-- T3's teal -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(185,190,175)</only> <!-- light drab -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(130,130,135)</only> <!-- dark -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(160,145,200)</only> <!-- lavender -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(145,195,230)</only> <!-- cyan -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  <ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_trendy</defName>
+		<label>clothing, trendy</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/trendy/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(255,130,65)</colorTwo> <!-- orange -->
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>0</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <Synthread>75</Synthread>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>KotORClothing_civilian_bougie</li>
+			<li>SaV_apparel_roguetrader</li>
+			<li>KotORRoyaltyTag_drip</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/trendy/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(210,190,140)</only> <!-- beige -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  <ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_cosmopolitan</defName>
+		<label>clothing, cosmopolitan</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/cosmopolitan/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(215,70,55)</colorTwo> <!-- red-orange -->
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <Synthread>75</Synthread>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>KotORClothing_civilian_bougie</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/cosmopolitan/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(165,170,200)</only> <!-- light sand blue -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(180,155,215)</only> <!-- light purple -->
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(160,215,160)</only> <!-- light green -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  
+	  <ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Clothing_light</defName>
+		<label>clothing, light</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/light/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(50,50,50)</colorTwo> <!-- black -->
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		
+		<costList>
+		  <Cloth>75</Cloth>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_any</li>
+			<li>KotORClothing_civilian_mid</li>
+			<li>KotORClothing_civilian_punk</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/light/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(190,185,200)</only>         <!-- lighter bley -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(210,190,140)</only> <!-- beige -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+  
+
+
+
+
+
+
+  <ThingDef ParentName="guy762_clothingbase">
+    <defName>guy762_Bodysuit_Dyeable</defName>
+    <label>bodysuit, fatigues</label>
+    <description>These are simple garments that protect little more than the modesty of the wearer.</description>
+    <graphicData>
+      <texPath>Apparel/Undersuits/worker/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<statBases>
+		<Mass>4</Mass>
+		<MarketValue>20</MarketValue>
+		<MaxHitPoints>150</MaxHitPoints>
+		<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.01</ArmorRating_Heat>
+		<Insulation_Cold>10</Insulation_Cold>
+		<Insulation_Heat>15</Insulation_Heat>
+		<EquipDelay>3</EquipDelay>
+		
+		<WorkToMake>1000</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+	  <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+	
+	<costList>
+      <Synthread>75</Synthread>
+    </costList>
+	
+    <apparel>
+      <tags Inherit="False">
+		<li>KotORClothing_undersuit</li>
+		<li>KotORClothing_civilian_prole</li>
+		<li>SithRem_apparel_undersuit</li>
+      </tags>
+      <wornGraphicPath>Apparel/Undersuits/worker/Apparel</wornGraphicPath>
+      <defaultOutfitTags Inherit="False">
+		<li>Worker</li>
+	  </defaultOutfitTags>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORClothes</li>
+		<li>guy762TT_KotORUnderArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(150,140,95)</only> <!-- khaki -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(50,50,50)</only> <!-- black -->
+			</li>
+			<li>
+				<weight>10</weight>
+				<only>(70,60,80)</only> <!-- plum -->
+			</li>
+			<li>
+			  <weight>10</weight>
+			  <only>(110,110,110)</only> <!-- medium grey -->
+			</li>
+		</options>
+	</colorGenerator>
+  </ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_Bodysuit_striped</defName>
+		<label>bodysuit, striped fatigues</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/worker/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(230,185,45)</colorTwo>    <!-- republic yellow -->
+		</graphicData>
+		<statBases>
+			<Mass>4</Mass>
+			<MarketValue>20</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <Synthread>75</Synthread>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>KotORClothing_undersuit</li>
+			<li>KotORClothing_civilian_prole</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Undersuits/worker/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		  <!--renderSkipFlags>
+			<li>Body</li>
+		  </renderSkipFlags-->
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+			<li>guy762TT_KotORUnderArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(70,60,80)</only> <!-- plum -->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	
+  
+  <ThingDef ParentName="guy762_clothingbase">
+    <defName>guy762_Bodysuit</defName>
+    <label>bodysuit, vac-sealed</label>
+    <description>This is a sealed bodysuit offering sufficient protection against the cold vacuum of space and other hazardous environments.</description>
+    <graphicData>
+      <texPath>Apparel/Undersuits/vac/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<Mass>6</Mass>
+		<MarketValue>100</MarketValue>
+		<MaxHitPoints>250</MaxHitPoints>
+		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.05</ArmorRating_Heat>
+		<Insulation_Cold>50</Insulation_Cold>
+		<Insulation_Heat>50</Insulation_Heat>
+		<EquipDelay>5</EquipDelay>
+		
+		<WorkToMake>10000</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+	</equippedStatOffsets>
+	
+	<costList>
+      <Synthread>80</Synthread>
+      <KOTOR_FabricArmorweave>20</KOTOR_FabricArmorweave>
+    </costList>
+	
+    <apparel>
+      <tags Inherit="False">
+		<li>KotORArmor_undersuit</li>
+		<li>MNC_outfit_mid</li>
+		<li>MNC_outfit_heavy</li>
+		<li>EVA</li>
+      </tags>
+      <wornGraphicPath>Apparel/Undersuits/vac/Apparel</wornGraphicPath>
+      <defaultOutfitTags Inherit="False">
+		<li>Soldier</li>
+	  </defaultOutfitTags>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORArmor</li>
+		<li>guy762TT_KotORUnderArmor</li>
+		<li>guy762TT_KotORArmor_space</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>15</weight>
+				<only>(220,195,255)</only> <!-- lavender -->
+			</li>
+			<li>
+				<weight>15</weight>
+				<only>(145,195,230)</only> <!-- cyan -->
+			</li>
+			<li>
+				<weight>7</weight>
+				<only>(110,215,215)</only> <!-- turquoise -->
+			</li>
+			<li>
+				<weight>3</weight>
+				<only>(120,110,180)</only> <!-- MNC trooper -->
+			</li>
+			<li>
+				<weight>2</weight>
+				<only>(165,80,80)</only> <!-- MNC rally master -->
+			</li>
+			<li>
+				<weight>1</weight>
+				<only>(210,200,15)</only> <!-- MNC field marshal -->
+			</li>
+		</options>
+	</colorGenerator>
+	<!--comps>
+		<li>
+		  <compClass>SaveOurShip2.Comp_EVA</compClass>        ADDED BY PATCH!!!
+		</li>
+	</comps-->
+  </ThingDef>
+  
+
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_ModdableMakeableArmor_soft">
+		<defName>guy762_Robes_jawa</defName>
+		<label>robes, rustic</label>
+		<description>Thick robes like these are worn to protect the wearer from temperature extremes.</description>
+		<graphicData>
+		  <texPath>Apparel/Robes/jawa/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>8</Mass>
+			<MarketValue>50</MarketValue>
+			<MaxHitPoints>225</MaxHitPoints>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>75</Insulation_Cold>
+			<Insulation_Heat>75</Insulation_Heat>
+			<EquipDelay>9</EquipDelay>
+			
+			<WorkToMake>12500</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		
+		<costList>
+			<Cloth>160</Cloth>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+				<li>guy762_KotORWorkbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		
+		
+		<apparel>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>SaV_apparel_jawa</li>
+				<li>KotORClothing_civilian_villager</li>
+			</tags>
+			<wornGraphicPath>Apparel/Robes/jawa/Apparel</wornGraphicPath>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,165,110)</only>  <!--jawa's nougat 100,65,45 hood -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(190,155,120)</only> <!-- beige -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130,125,105)</only> <!-- khaki -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(125,100,75)</only> <!--K2 padawan-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130,125,140)</only> <!-- bley -->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_robe</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  
+	  
+	  <ThingDef ParentName="guy762_ModdableMakeableArmor_soft">
+		<defName>guy762_Robes_tusken</defName>
+		<label>robes, rugged</label>
+		<description>Thick robes like these are worn to protect the wearer from temperature extremes.</description>
+		<graphicData>
+		  <texPath>Apparel/Robes/tusken/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>8</Mass>
+			<MarketValue>50</MarketValue>
+			<MaxHitPoints>225</MaxHitPoints>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>75</Insulation_Cold>
+			<Insulation_Heat>75</Insulation_Heat>
+			<EquipDelay>9</EquipDelay>
+			
+			<WorkToMake>12500</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		
+		<costList>
+			<Cloth>160</Cloth>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+				<li>guy762_KotORWorkbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		
+		
+		<apparel>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>SaV_apparel_tusken</li>
+				<li>KotORClothing_civilian_villager</li>
+				<li>KotORClothing_civilian_hooded</li>
+			</tags>
+			<wornGraphicPath>Apparel/Robes/tusken/Apparel</wornGraphicPath>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(190,155,120)</only> <!-- beige -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130,125,105)</only>         <!-- khaki -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(125,100,75)</only>       <!--K2 padawan-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,55,40)</only>         <!--K2 jedi knight-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,85,65)</only> <!-- grease green -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(160,150,105)</only> <!-- dijon yellow -->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_robe</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+  
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_ModdableMakeableArmor_soft">
+		<defName>guy762_Robes_onderon</defName>
+		<label>robes, wayfarer's</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Robes/onderon/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(100,145,160)</colorTwo>
+		</graphicData>
+		<statBases>
+			<Mass>8</Mass>
+			<MarketValue>50</MarketValue>
+			<MaxHitPoints>225</MaxHitPoints>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+			<EquipDelay>9</EquipDelay>
+			
+			<WorkToMake>12500</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		
+		<costList>
+			<Cloth>160</Cloth>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+				<li>guy762_KotORWorkbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		
+		
+		<apparel>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>KotORClothing_civilian_villager</li>
+			</tags>
+			<wornGraphicPath>Apparel/Robes/onderon/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(200,210,210)</only> <!-- snow white -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,75,60)</only>       <!--patchleather-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,85,65)</only> <!-- grease green -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(160,150,105)</only> <!-- dijon yellow -->
+				</li>
+				
+				
+				
+				<!--<li>
+					<weight>10</weight>
+					<only>(0,106,126)</only> hyperweave
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(174,219,228)</only> synthread
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(110,60,110)</only> purple
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,90,165)</only> royal blue
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(230,185,45)</only> republic yellow
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(180,60,60)</only> devilstrand red
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(57,87,93)</only> eltex blue
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(51,27,49)</only> eltex purple
+				</li>-->
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_robe</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="KotORArmorModdable_soft">
+		<defName>guy762_Jacket_scoundrel</defName>
+		<label>scoundrel's jacket</label>
+		<description>This is a fine jacket popular with smugglers and scoundrels alike.</description>
+		<graphicData>
+		  <texPath>Apparel/Accessories/jacket_smuggler/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(160,170,175)</colorTwo>
+		</graphicData>
+		<statBases>
+			<Mass>4</Mass>
+			<MarketValue>250</MarketValue>
+			<MaxHitPoints>250</MaxHitPoints>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+		  <VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+		  <SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>KotORClothing_smuggler</li>
+				<li>KotORClothing_civilian_punk</li>
+				<li>KotORRoyaltyTag_drip</li>
+			</tags>
+			<wornGraphicPath>Apparel/Accessories/jacket_smuggler/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(125,25,25)</only>         <!--scoundrel red-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(230,185,45)</only> <!-- republic yellow -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(60,50,65)</only>         <!--goth purple-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(70,90,125)</only>       <!--K1 jedi blue-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,75,60)</only>       <!--patchleather-->
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  
+	  
+	  <ThingDef ParentName="KotORArmorModdable_soft">
+		<defName>guy762_Jacket_mission</defName>
+		<label>vest, trendy</label>
+		<description>This is a puffy vest popular on many urban worlds.</description>
+		<graphicData>
+		  <texPath>Apparel/Accessories/vest_mission/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(175,120,55)</colorTwo> <!-- burnt orange -->
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>175</MarketValue>
+			<MaxHitPoints>250</MaxHitPoints>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.3</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>KotORClothing_civilian_bougie</li>
+				<li>SaV_apparel_mission</li>
+			</tags>
+			<wornGraphicPath>Apparel/Accessories/vest_mission/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,125,140)</only>         <!-- bley -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,85,65)</only> <!-- grease green -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(55,80,105)</only> <!-- navy blue -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,75,60)</only> <!-- patchleather -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,210,210)</only> <!-- snow white -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(95,100,70)</only> <!-- forest green -->
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  
+	  <ThingDef ParentName="KotORArmorModdable_soft">
+		<defName>guy762_Jacket_scout</defName>
+		<label>vest, scout's</label>
+		<description>This is a utilitarian vest popular among spacers and colonial pioneers.</description>
+		<graphicData>
+		  <texPath>Apparel/Accessories/vest_scout/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>175</MarketValue>
+			<MaxHitPoints>250</MaxHitPoints>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+		  <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.1</MechRepairSpeed>
+		  <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+		  <ConstructSuccessChance>0.1</ConstructSuccessChance>
+		  <VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<apparel>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>KotORClothing_smuggler</li>
+				<li>KotORClothing_civilian_prole</li>
+				<li>KotORClothing_civilian_mid</li>
+				<li>KotORClothing_civilian_punk</li>
+			</tags>
+			<wornGraphicPath>Apparel/Accessories/vest_scout/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(90,75,60)</only> <!-- patchleather -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(125,75,70)</only>       <!--canderous' red-->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(130,125,140)</only>         <!-- bley -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,85,65)</only> <!-- grease green -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(55,80,105)</only> <!-- navy blue -->
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(95,100,70)</only> <!-- forest green -->
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+
+	  
+	  
+	  
+	  
+	  
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_HatCraftableBase">
+		<defName>guy762_Hat_onderon</defName>
+		<label>masked cap</label>
+		<description>A masked cap for military personnel.</description>
+		<graphicData>
+		  <texPath>Apparel/Undersuits/onderonhat/hat</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+		  <MarketValue>50</MarketValue>
+		  <MaxHitPoints>80</MaxHitPoints>
+		  <Mass>0.05</Mass>
+		  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+		  <EquipDelay>0.1</EquipDelay>
+		  
+		  <WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <Synthread>30</Synthread>
+		</costList>
+		
+		<apparel>
+		  <wornGraphicPath>Apparel/Undersuits/onderonhat/hat</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <renderSkipFlags>
+			<li>Hair</li>
+			<li>Beard</li>
+		  </renderSkipFlags>
+		  <bodyPartGroups>
+			<li>UpperHead</li>
+			<li>Mouth</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Overhead</li>
+		  </layers>
+		  <tags>
+			<li>PReb_apparel_cop</li>
+			<li>PReb_apparel_maskedhats</li>
+		  </tags>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORClothes</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(125,50,50)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_MakeNoQualityClothing">
+    <defName>guy762_FlightVest</defName>
+    <label>flight vest</label>
+    <description>A padded vest intended for starfighter pilots, it has a small amount of anti-radiation padding in order to protect the wearer's vital organs from background radiation during extravehicular operations.</description>
+    <graphicData>
+      <texPath>Apparel/FlightVest/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	<statBases>
+		<Mass>2.5</Mass>
+		<MarketValue>100</MarketValue>
+		<MaxHitPoints>150</MaxHitPoints>
+		<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.05</ArmorRating_Heat>
+		<Insulation_Cold>1</Insulation_Cold>
+		<Insulation_Heat>1</Insulation_Heat>
+		<EquipDelay>10</EquipDelay>
+		
+		<WorkToMake>5000</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+	  <DecompressionResistance MayRequire="kentington.saveourship2">0.125</DecompressionResistance>
+    </equippedStatOffsets>
+	
+	
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+	  <Synthread>45</Synthread>
+    </costList>
+	
+    <apparel>
+      <tags Inherit="False">
+		<li>KotORClothing_pilot</li>
+      </tags>
+      <wornGraphicPath>Apparel/FlightVest/Apparel</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <defaultOutfitTags Inherit="False">
+		<li>Worker</li>
+	  </defaultOutfitTags>
+	  <layers Inherit="False">
+		<li>Middle</li>
+	  </layers>
+	  <bodyPartGroups Inherit="False">
+		<li>Torso</li>
+	  </bodyPartGroups>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORClothes</li>
+		<li>guy762TT_KotORArmor_space</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(255,255,255)</only>
+			</li>
+			<li>
+				<weight>5</weight>
+				<only>(130,130,130)</only>
+			</li>
+		</options>
+	</colorGenerator>
+  </ThingDef>
+  
+  <ThingDef ParentName="KotORArmorModdable_hard">
+    <defName>guy762_FlightArmor</defName>
+    <label>armored flight vest</label>
+    <description>This combat-ready flight vest provides additional protection against vacuum for limited periods. Its many models appeal to a wide range of users, from military pilots and mercenaries to fringe explorers and space pirates. Built-in grav thrusters also assist with movement in open space.</description>
+    <graphicData>
+      <texPath>Apparel/FlightArmor/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <colorTwo>(140,0,0)</colorTwo>
+    </graphicData>
+	<statBases>
+		<Mass>6</Mass>
+		<MarketValue>500</MarketValue>
+		<MaxHitPoints>225</MaxHitPoints>
+		<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.65</ArmorRating_Heat>
+		<Insulation_Cold>20</Insulation_Cold>
+		<EquipDelay>15</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>-0.1</MoveSpeed>
+		<MeleeDodgeChance>-0.1</MeleeDodgeChance>
+		<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+		<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">2</VacuumSpeedMultiplier>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.125</DecompressionResistance>
+	</equippedStatOffsets>
+    <apparel>
+      <tags Inherit="False">
+		<li>KotORClothing_pilot</li>
+      </tags>
+      <wornGraphicPath>Apparel/FlightArmor/Apparel</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <defaultOutfitTags Inherit="False">
+		<li>Worker</li>
+	  </defaultOutfitTags>
+	  <layers Inherit="False">
+		<li>Middle</li>
+	  </layers>
+	  <bodyPartGroups Inherit="False">
+		<li>Torso</li>
+	  </bodyPartGroups>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORArmor</li>
+		<li>guy762TT_KotORArmor_space</li>
+		<li>guy762TT_KotORArmor_powered</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>15</weight>
+				<only>(180,185,185)</only>
+			</li>
+		</options>
+	</colorGenerator>
+  </ThingDef>
+
+</Defs>

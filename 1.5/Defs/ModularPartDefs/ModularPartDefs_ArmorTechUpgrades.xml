@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	  	<!--helmet tech-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_verpine</defName>
+    <label>Verpine ocular enhancer</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <statModifiers>
+	  <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+    </statModifiers>
+	<warmupTimeFactor>-0.2</warmupTimeFactor>
+	<costList>
+	  <guy762_Headband_verpine>1</guy762_Headband_verpine>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_neural</defName>
+    <label>neural stabilizers</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PainShockThresholdFactor>0.2</PainShockThresholdFactor>
+	<MentalBreakThresholdFactor>-0.2</MentalBreakThresholdFactor>
+	<costList>
+	  <guy762_Headband_nerualband>1</guy762_Headband_nerualband>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_lightscan</defName>
+    <label>light-scan visor</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PawnTrapSpringChanceFactor>-0.4</PawnTrapSpringChanceFactor>
+	<costList>
+	  <guy762_Headband_lightscan>1</guy762_Headband_lightscan>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_demovisor</defName>
+    <label>demolitions visor</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<PawnTrapSpringChanceFactor>-0.8</PawnTrapSpringChanceFactor>
+	<MortarMissRadiusFactor>-0.4</MortarMissRadiusFactor>
+	<costList>
+	  <guy762_Headband_demovisor>1</guy762_Headband_demovisor>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_medical</defName>
+    <label>medical interface visor</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<statModifiers>
+      <MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+      <MedicalTendQualityOffset>1</MedicalTendQualityOffset>
+      <MedicalTendSpeed>1</MedicalTendSpeed>
+    </statModifiers>
+	<costList>
+	  <guy762_Headband_medical>1</guy762_Headband_medical>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_breathmask</defName>
+    <label>enhanced filtration system</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.3</massFactor>
+    <EquipDelayFactor>-3</EquipDelayFactor>
+    <ToxicEnvironmentResistanceFactor>1</ToxicEnvironmentResistanceFactor>
+	<costList>
+	  <guy762_Headband_breathmask>1</guy762_Headband_breathmask>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_regal</defName>
+    <label>regal adornments</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <statModifiers>
+      <SocialImpact>0.1</SocialImpact>
+	  <PawnBeauty>1</PawnBeauty>
+	  <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.2</ConversionPower>
+	  <NegotiationAbility>0.2</NegotiationAbility>
+	  <TradePriceImprovement>0.2</TradePriceImprovement>
+    </statModifiers>
+	<costList>
+	  <guy762_Headband_regalvisor>1</guy762_Headband_regalvisor>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_interface</defName>
+    <label>interface visor</label>
+    <kind>guy762_slot_helmettech</kind>
+	<massFactor>0.4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+    <statModifiers>
+      <!--MHC_MechanicalSurgerySuccessChance>0.2</MHC_MechanicalSurgerySuccessChance>   ADDED IN VIA PATCH IN THE MHC FOLDER
+      <MHC_MechanicalTendQuality>0.2</MHC_MechanicalTendQuality>
+      <MHC_MechanicalTendSpeed>0.2</MHC_MechanicalTendSpeed-->
+	  <ConstructionSpeedFactor>0.2</ConstructionSpeedFactor>
+	  <ResearchSpeed>0.2</ResearchSpeed>
+	  <FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
+	  <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
+	  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
+    </statModifiers>
+	<costList>
+	  <guy762_Headband_interface>1</guy762_Headband_interface>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  
+  <!--helmet tech (visor only)-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_verpine_visor</defName>
+    <label>Verpine ocular enhancer</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <statModifiers>
+	  <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+    </statModifiers>
+	<warmupTimeFactor>-0.2</warmupTimeFactor>
+	<costList>
+	  <guy762_Headband_verpine>1</guy762_Headband_verpine>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_neural_visor</defName>
+    <label>neural stabilizers</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PainShockThresholdFactor>0.2</PainShockThresholdFactor>
+	<MentalBreakThresholdFactor>-0.2</MentalBreakThresholdFactor>
+	<costList>
+	  <guy762_Headband_nerualband>1</guy762_Headband_nerualband>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_lightscan_visor</defName>
+    <label>light-scan visor</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PawnTrapSpringChanceFactor>-0.4</PawnTrapSpringChanceFactor>
+	<costList>
+	  <guy762_Headband_lightscan>1</guy762_Headband_lightscan>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_demovisor_visor</defName>
+    <label>demolitions visor</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<PawnTrapSpringChanceFactor>-0.8</PawnTrapSpringChanceFactor>
+	<MortarMissRadiusFactor>-0.4</MortarMissRadiusFactor>
+	<costList>
+	  <guy762_Headband_demovisor>1</guy762_Headband_demovisor>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_medical_visor</defName>
+    <label>medical interface visor</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<statModifiers>
+      <MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+      <MedicalTendQualityOffset>1</MedicalTendQualityOffset>
+      <MedicalTendSpeed>1</MedicalTendSpeed>
+    </statModifiers>
+	<costList>
+	  <guy762_Headband_medical>1</guy762_Headband_medical>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_regal_visor</defName>
+    <label>regal adornments</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <statModifiers>
+      <SocialImpact>0.1</SocialImpact>
+	  <PawnBeauty>1</PawnBeauty>
+	  <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.2</ConversionPower>
+	  <NegotiationAbility>0.2</NegotiationAbility>
+	  <TradePriceImprovement>0.2</TradePriceImprovement>
+    </statModifiers>
+	<costList>
+	  <guy762_Headband_regalvisor>1</guy762_Headband_regalvisor>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_helmettech_interface_visor</defName>
+    <label>interface visor</label>
+    <kind>guy762_slot_helmettech_visor</kind>
+	<massFactor>0.4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+    <statModifiers>
+      <!--MHC_MechanicalSurgerySuccessChance>0.2</MHC_MechanicalSurgerySuccessChance>   ADDED IN VIA PATCH IN THE MHC FOLDER
+      <MHC_MechanicalTendQuality>0.2</MHC_MechanicalTendQuality>
+      <MHC_MechanicalTendSpeed>0.2</MHC_MechanicalTendSpeed-->
+	  <ConstructionSpeedFactor>0.2</ConstructionSpeedFactor>
+	  <ResearchSpeed>0.2</ResearchSpeed>
+	  <FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
+	  <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
+	  <HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.2</HackingSpeed>
+    </statModifiers>
+	<costList>
+	  <guy762_Headband_interface>1</guy762_Headband_interface>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+		<!--armor tech-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_armortech_bootspikes</defName>
+    <label>boot spikes</label>
+    <kind>guy762_slot_armortech</kind>
+	<description>Adds an additional melee attack tool.</description>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<toolFactor>
+	  <label>boot spike</label>
+	  <capacities>
+		<li>Stab</li>
+	  </capacities>
+	  <power>10</power>
+	  <cooldownTime>2.5</cooldownTime>
+	  <chanceFactor>0.35</chanceFactor>
+	  <soundMeleeHit>kotorsound_wristblade</soundMeleeHit>
+	  <soundMeleeMiss>kotorsound_wristblade</soundMeleeMiss>
+	  <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+	  <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+	</toolFactor>
+	<costList>
+	  <Steel>10</Steel>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_armortech_kneerocket</defName>
+    <label>knee-mounted micro-rocket launcher</label>
+    <kind>guy762_slot_armortech</kind>
+	<description>Adds an additional attack verb which fires a pair of micro-rockets.</description>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<underbarrelVerb>
+		<label>mounted micro-rocket launcher</label>
+		<description>Fire a pair of micro-rockets.</description>
+		<iconPath>Items/droidweapon/droidweapon_microrocket</iconPath>
+		<commandIcon>Items/droidweapon/droidweapon_microrocket</commandIcon>
+		<verbClass>ModularWeapons.Verb_UnderbarrelUseOnce</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>KotORRocket_micro</defaultProjectile>
+		<warmupTime>1</warmupTime>
+		<range>17</range>
+		<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+		<burstShotCount>2</burstShotCount>
+		<soundCast>kotorsound_smallrocket</soundCast>
+		<soundCastTail>GunTail_Medium</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<ai_IsWeapon>true</ai_IsWeapon>
+		<onlyManualCast>true</onlyManualCast>
+		
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+		<linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
+	</underbarrelVerb>
+	<costList>
+	  <guy762_DroidWeapon_microrocket>1</guy762_DroidWeapon_microrocket>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_armortech_stabilizer</defName>
+    <label>gyro-stabilizers</label>
+    <kind>guy762_slot_armortech</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <StaggerDurationFactor>-0.5</StaggerDurationFactor>
+	<statModifiers>
+	  <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+    </statModifiers>
+	<costList>
+	  <ComponentSpacer>4</ComponentSpacer>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_armortech_strength</defName>
+    <label>strength amplifier</label>
+    <kind>guy762_slot_armortech</kind>
+	<massFactor>0.2</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+	<costList>
+	  <guy762_glove_eriadu>1</guy762_glove_eriadu>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_armortech_dex</defName>
+    <label>enhanced exoskeleton</label>
+    <kind>guy762_slot_armortech</kind>
+	<massFactor>0.5</massFactor>
+    <EquipDelayFactor>-5</EquipDelayFactor>
+    <MeleeDodgeChanceFactor>0.3</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>0.3</MoveSpeedFactor>
+	<statModifiers>
+      <VEF_MassCarryCapacity>30</VEF_MassCarryCapacity>
+    </statModifiers>
+	<costList>
+	  <ComponentSpacer>2</ComponentSpacer>
+	  <ComponentIndustrial>10</ComponentIndustrial>
+	  <Plasteel>40</Plasteel>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef MayRequire="kentington.saveourship2">
+    <defName>guy762_armortech_EVA</defName>
+    <label>EVA verniers</label>
+    <kind>guy762_slot_armortech</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-15</EquipDelayFactor>
+    <statModifiers>
+      <VacuumSpeedMultiplier>3</VacuumSpeedMultiplier>
+    </statModifiers>
+	<costList>
+	  <ComponentIndustrial>6</ComponentIndustrial>
+	  <KOTOR_PlasmaCartridge>2</KOTOR_PlasmaCartridge>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+	
+  
+
+</Defs>

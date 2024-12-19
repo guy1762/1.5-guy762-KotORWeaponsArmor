@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_red</defName>
+	<uiIconPath>UI/sabericons/curve/curve_red</uiIconPath>
+	<costList>
+		<guy762_crystalitem_red>1</guy762_crystalitem_red>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SE_sithsaber</li>
+		<li>SE_sithinquisitor</li>
+		<li>SE_sithsaber_sorcerer</li>
+		<li>SaV_darkjedisaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_red</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_orange</defName>
+	<uiIconPath>UI/sabericons/curve/curve_orange</uiIconPath>
+	<costList>
+		<guy762_crystalitem_orange>1</guy762_crystalitem_orange>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SaV_darkjedisaber</li>
+		<li>SaV_visas</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_orange</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_yellow</defName>
+	<uiIconPath>UI/sabericons/curve/curve_yellow</uiIconPath>
+	<costList>
+		<guy762_crystalitem_yellow>1</guy762_crystalitem_yellow>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber</li>
+		<li>OR_jedisentinel</li>
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_yellow</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_green</defName>
+	<uiIconPath>UI/sabericons/curve/curve_green</uiIconPath>
+	<costList>
+		<guy762_crystalitem_green>1</guy762_crystalitem_green>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber</li>
+		<li>OR_jediconsular</li>
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_green</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_blue</defName>
+	<uiIconPath>UI/sabericons/curve/curve_blue</uiIconPath>
+	<costList>
+		<guy762_crystalitem_blue>1</guy762_crystalitem_blue>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber</li>
+		<li>OR_juhani</li>
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_blue</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_purple</defName>
+	<uiIconPath>UI/sabericons/curve/curve_purple</uiIconPath>
+	<costList>
+		<guy762_crystalitem_purple>1</guy762_crystalitem_purple>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber</li>
+		<li>SE_sithsaber</li>
+		<li>SE_sithinquisitor</li>
+		<li>SE_sithsaber_sorcerer</li>
+		<li>SaV_darkjedisaber</li>
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_purple</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_white</defName>
+	<uiIconPath>UI/sabericons/curve/curve_white</uiIconPath>
+	<costList>
+		<guy762_crystalitem_white>1</guy762_crystalitem_white>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_white</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponLightsaber</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  <!--ThingDef ParentName="guy762_kotorcurvesaber">
+    <defName>SWSaber_KotOR_curvesaber_pink</defName>
+	<uiIconPath>UI/sabericons/curve/curve_pink</uiIconPath>
+	<weaponTags Inherit="False" />
+	<tradeTags Inherit="False" />
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_curve</li>
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_pink</li>
+		</defaultParts>
+	  </li>
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef-->
+  
+ 
+  
+</Defs>

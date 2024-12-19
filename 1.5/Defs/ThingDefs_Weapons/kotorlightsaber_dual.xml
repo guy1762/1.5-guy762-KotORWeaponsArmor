@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+
+  
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_red</defName>
+	<uiIconPath>UI/sabericons/dual/dual_red</uiIconPath>
+	<costList>
+		<guy762_crystalitem_red>1</guy762_crystalitem_red>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SE_sithwarrior</li>
+		<li>SE_sithmarauder</li>
+		<li>SE_sithsaber_dual</li>
+		<li>SE_sithsaber_assassin</li>
+		<li>SE_bandon</li>
+		<li>SaV_darkjedisaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_red</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_orange</defName>
+	<uiIconPath>UI/sabericons/dual/dual_orange</uiIconPath>
+	<costList>
+		<guy762_crystalitem_orange>1</guy762_crystalitem_orange>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SaV_darkjedisaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_orange</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_yellow</defName>
+	<uiIconPath>UI/sabericons/dual/dual_yellow</uiIconPath>
+	<costList>
+		<guy762_crystalitem_yellow>1</guy762_crystalitem_yellow>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber_dual</li>
+		<li>OR_jedisentinel</li>
+		<li>SaV_jediexilesaber</li>
+		<li>OR_bastila</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_yellow</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_green</defName>
+	<uiIconPath>UI/sabericons/dual/dual_green</uiIconPath>
+	<costList>
+		<guy762_crystalitem_green>1</guy762_crystalitem_green>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber_dual</li>
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_green</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_blue</defName>
+	<uiIconPath>UI/sabericons/dual/dual_blue</uiIconPath>
+	<costList>
+		<guy762_crystalitem_blue>1</guy762_crystalitem_blue>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>OR_jedisaber_dual</li>
+		<li>OR_jediguardian</li>
+		<li>SaV_jediexilesaber</li>
+		<li>OR_handmaiden</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_blue</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_purple</defName>
+	<uiIconPath>UI/sabericons/dual/dual_purple</uiIconPath>
+	<costList>
+		<guy762_crystalitem_purple>1</guy762_crystalitem_purple>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SE_sithwarrior</li>
+		<li>SE_sithmarauder</li>
+		<li>OR_jedisaber_dual</li>
+		<li>SE_sithsaber_dual</li>
+		<li>SE_sithsaber_assassin</li>
+		<li>SaV_darkjedisaber</li>
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_purple</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponBladelink</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_dualsaber_white</defName>
+	<uiIconPath>UI/sabericons/dual/dual_white</uiIconPath>
+	<costList>
+		<guy762_crystalitem_white>1</guy762_crystalitem_white>
+	</costList>
+	<weaponTags Inherit="False">
+		<li>SaV_jediexilesaber</li>
+	</weaponTags>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_colorcrystal</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_colorcrystal</li>
+		</majorKinds>
+		<randomizeParts>false</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_white</li>
+		</defaultParts>
+	  </li>
+	  <!--li Class="CompProperties_BladelinkWeapon">
+        <biocodeOnEquip>true</biocodeOnEquip>
+      </li>
+      <li Class="CompProperties_GeneratedName">
+        <nameMaker>NamerWeaponLightsaber</nameMaker>
+      </li-->
+    </comps>
+	<notifyMapRemoved>true</notifyMapRemoved>
+	<tradeNeverStack>true</tradeNeverStack>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_kotordualsaber">
+    <defName>SWSaber_KotOR_exarsaber</defName>
+	<uiIconPath>UI/sabericons/dual/dual_mantle</uiIconPath>
+    <label>Exar Kun's double-bladed lightsaber</label>
+    <description>The first of its kind, this is the lightsaber of the infamous fallen Jedi Exar Kun. Its blade glows with a sinister sapphire blue, still emanating the dark taint of its master.</description>
+	<statBases>
+      <MarketValue>100000</MarketValue>
+    </statBases>
+	<equippedStatOffsets>
+	  <MeleeHitChance>0</MeleeHitChance>
+	</equippedStatOffsets>
+	<costList>
+		<guy762_crystalitem_mantle>1</guy762_crystalitem_mantle>
+	</costList>
+	<recipeMaker Inherit="False">
+	  <soundWorking>kotorsound_upgrade</soundWorking>
+	  <recipeUsers>
+		<li>guy762_KotORWorkbench</li>
+	  </recipeUsers>
+	  <researchPrerequisite>guy762_ResearchKotOR_uncraftable</researchPrerequisite>
+	</recipeMaker>
+	<weaponTags Inherit="False">
+		<li>KotORMelee_legendary</li>
+	</weaponTags>
+	<tradeTags Inherit="False">
+		<li>guy762TT_KotORLegendary</li>
+	</tradeTags>
+	<relicChance>5</relicChance>
+    <comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<bundlePackageId>guy762.KotORWeaponsArmor</bundlePackageId>
+		<partKinds>
+			<li>guy762_slot_exarsabercolor</li>
+			<li>guy762_slot_focuscrystal</li>
+			<li>guy762_slot_powercrystal_dual</li>
+			<!--li>guy762_slot_lens</li>
+			<li>guy762_slot_emitter</li>
+			<li>guy762_slot_sabercell</li-->
+		</partKinds>
+		<majorKinds>
+			<li>guy762_slot_exarsabercolor</li>
+		</majorKinds>
+		<randomizeParts>true</randomizeParts>
+		<defaultParts>
+			<li>guy762_colorcrystal_exar</li>
+		</defaultParts>
+	  </li>
+	</comps>
+	<!--li Class="CompProperties_Biocodable">
+		<biocodeOnEquip>false</biocodeOnEquip>
+	</li-->
+  </ThingDef>
+  
+  
+   
+</Defs>

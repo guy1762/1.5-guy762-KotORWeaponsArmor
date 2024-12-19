@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="guy762_HatCraftableBase">
+		<defName>guy762_UniformCap</defName>
+		<label>uniform cap</label>
+		<description>A formal cap for military personnel.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/uniform/ensign/hat</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MarketValue>20</MarketValue>
+		  <MaxHitPoints>80</MaxHitPoints>
+		  <Mass>0.05</Mass>
+		  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+		  <EquipDelay>0.1</EquipDelay>
+		  
+		  
+		  <WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Synthread>20</Synthread>
+		</costList>
+		
+		<apparel>
+		  <wornGraphicPath>Apparel/Sith/uniform/ensign/hat</wornGraphicPath>
+		  <bodyPartGroups>
+			<li>UpperHead</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Overhead</li>
+		  </layers>
+		  <tags>
+			<li>SE_apparel_ensign</li>
+			<li>SE_apparel_engi</li>
+			<li>KotORRoyaltyTag_ORprivI</li>
+			<li>KotORRoyaltyTag_ORprivII</li>
+		  </tags>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(170,170,190)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	
+	
+	<ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_SithUniform_ensign</defName>
+		<label>Sith uniform</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/uniform/ensign/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(250,250,250)</colorTwo>
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>4000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+		  <Synthread>75</Synthread>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>SE_apparel_ensign</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Sith/uniform/ensign/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(170,170,190)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	<ThingDef ParentName="guy762_HatCraftableBase">
+		<defName>guy762_SithHat_officer</defName>
+		<label>Sith Officer cap</label>
+		<description>A formal cap for military personnel.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/uniform/hat</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(50,50,50)</colorTwo>
+		</graphicData>
+		<statBases>
+		  <MarketValue>100</MarketValue>
+		  <MaxHitPoints>80</MaxHitPoints>
+		  <Mass>0.05</Mass>
+		  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+		  <EquipDelay>0.1</EquipDelay>
+		  
+		  <WorkToMake>1000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.1</SocialImpact>
+		  <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+		  <Synthread>20</Synthread>
+		</costList>
+		
+		<apparel>
+		  <wornGraphicPath>Apparel/Sith/uniform/hat</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <bodyPartGroups>
+			<li>UpperHead</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Overhead</li>
+		  </layers>
+		  <tags>
+			<li>SE_apparel_officer</li>
+		  </tags>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(170,170,190)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	
+	<ThingDef ParentName="guy762_clothingbase">
+		<defName>guy762_SithUniform_officer</defName>
+		<label>Sith Officer uniform</label>
+		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/uniform/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(50,50,50)</colorTwo>
+		</graphicData>
+		<statBases>
+			<Mass>3</Mass>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+			
+			<WorkToMake>5000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+		  <SocialImpact>0.2</SocialImpact>
+		  <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.3</SuppressionPower>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+		  <Synthread>85</Synthread>
+		</costList>
+		
+		<apparel>
+		  <tags Inherit="False">
+			<li>SE_apparel_officer</li>
+		  </tags>
+		  <wornGraphicPath>Apparel/Sith/uniform/Apparel</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <defaultOutfitTags Inherit="False">
+			<li>Worker</li>
+		  </defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(170,170,190)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  
+	  
+
+
+
+		<!--armor-->	
+		
+		
+	<ThingDef ParentName="guy762_ModMakeNoQualityArmor_hard">
+		<defName>guy762_SithArmor_trooper</defName>
+		<label>Sith Trooper Armor (polished)</label>
+		<techLevel>Spacer</techLevel>
+		<description>This full body armor is standard issue for Sith infantry forces.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/trooper/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>10</Mass>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+			
+			<WorkToMake>24000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>80</Plasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<tags>
+				<li>SE_apparel_trooper</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/trooper/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(140,140,150)</only>  <!--silver-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			  <li>guy762_slot_overlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="guy762_HelmetModMakeNoQuality">
+		<defName>guy762_SithHelmet_trooper</defName>
+		<label>Sith Trooper Helmet (polished)</label>
+		<techLevel>Spacer</techLevel>
+		<description>This helmet is standard issue for Sith infantry forces.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/trooper/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>5.5</Mass>
+			<MarketValue>300</MarketValue>
+			<MaxHitPoints>175</MaxHitPoints>
+      		<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+			
+			<WorkToMake>10000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>35</Plasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<drawData>
+				<defaultData>
+					<layer>67</layer>
+				</defaultData>
+			</drawData>
+			<tags>
+				<!--li>EVA</li-->
+				<li>SE_apparel_trooper</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/trooper/Helmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+				<li>EyeCover</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(140,140,150)</only>  <!--silver-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_overlay</li>
+			  <li>guy762_slot_underlay_hat</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<ThingDef ParentName="guy762_ModMakeNoQualityArmor_hard">
+		<defName>guy762_SithArmor_colortrooper</defName>
+		<label>Sith Trooper Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>This full body armor is standard issue for Sith infantry forces.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/trooper/dulled/Apparel</texPath>    <!--this version has a different mask layer with lower contrast-->
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>10</Mass>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+			
+			<WorkToMake>24000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>80</Plasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<tags>
+				<li>SE_apparel_elitetrooper</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/trooper/dulled/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(120,0,0)</only>  <!--red-->
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(100,100,100)</only>  <!--grey-->
+				</li>
+				<li>
+					<weight>1</weight>
+					<only>(210,175,75)</only>  <!--gold-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			  <li>guy762_slot_overlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="guy762_HelmetModMakeNoQuality">
+		<defName>guy762_SithHelmet_colortrooper</defName>
+		<label>Sith Trooper Helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>This helmet is standard issue for Sith infantry forces.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/trooper/dulled/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>5.5</Mass>
+			<MarketValue>300</MarketValue>
+			<MaxHitPoints>175</MaxHitPoints>
+      		<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+			
+			<WorkToMake>10000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>35</Plasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<drawData>
+				<defaultData>
+					<layer>67</layer>
+				</defaultData>
+			</drawData>
+			<tags>
+				<!--li>EVA</li-->
+				<li>SE_apparel_trooper</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/trooper/dulled/Helmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+				<li>EyeCover</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(120,0,0)</only>  <!--red-->
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(100,100,100)</only>  <!--grey-->
+				</li>
+				<li>
+					<weight>1</weight>
+					<only>(210,175,75)</only>  <!--gold-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_overlay</li>
+			  <li>guy762_slot_underlay_hat</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+		
+		
+		
+		
+		
+	<!-- commando -->	
+		
+		
+	<ThingDef ParentName="guy762_ModMakeNoQualityArmor_hard">
+		<defName>guy762_SithArmor_commando</defName>
+		<label>Sith Commando Armor (polished)</label>
+		<techLevel>Spacer</techLevel>
+		<description>This bulky suit of powered armor was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/commando/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>10000</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.95</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+			
+			<WorkToMake>64000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+			<MeleeDodgeChance>-0.4</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+			<MeleeDamageFactor>0.1</MeleeDamageFactor>              <!---->
+			<VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<KOTOR_AlloyDurasteel>40</KOTOR_AlloyDurasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<tags>
+				<li>SE_apparel_shocktrooper</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/commando/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(140,140,150)</only>  <!--silver-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			  <li>guy762_slot_overlay_hvy</li>
+			  <li>guy762_slot_armortech</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="guy762_HelmetModMakeNoQuality">
+		<defName>guy762_SithHelmet_commando</defName>
+		<label>Sith Commando Helmet (polished)</label>
+		<techLevel>Spacer</techLevel>
+		<description>This bulky powered helmet was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/commando/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>7.5</Mass>
+			<MarketValue>6500</MarketValue>
+			<MaxHitPoints>235</MaxHitPoints>
+      		<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<EquipDelay>6</EquipDelay>
+			
+			<WorkToMake>22000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<KOTOR_AlloyDurasteel>20</KOTOR_AlloyDurasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<drawData>
+				<defaultData>
+					<layer>67</layer>
+				</defaultData>
+			</drawData>
+			<tags>
+				<!--li>EVA</li-->
+				<li>SE_apparel_shocktrooper</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/commando/Helmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+				<li>EyeCover</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(140,140,150)</only>  <!--silver-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_hat</li>
+			  <li>guy762_slot_overlay_hvy</li>
+			  <li>guy762_slot_helmettech</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	
+	<ThingDef ParentName="guy762_ModMakeNoQualityArmor_hard">
+		<defName>guy762_SithArmor_colorcommando</defName>
+		<label>Sith Commando Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>This bulky suit of powered armor was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/commando/dulled/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>10000</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.95</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+			
+			<WorkToMake>64000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+			<MeleeDodgeChance>-0.4</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+			<MeleeDamageFactor>0.1</MeleeDamageFactor>              <!---->
+			<VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<KOTOR_AlloyDurasteel>40</KOTOR_AlloyDurasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<tags>
+				<li>SE_apparel_commando</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/commando/dulled/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(120,0,0)</only>  <!--red-->
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(62,62,62)</only>  <!--black-->
+				</li>
+				<li>
+					<weight>1</weight>
+					<only>(210,175,75)</only>  <!--gold-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay</li>
+			  <li>guy762_slot_overlay_hvy</li>
+			  <li>guy762_slot_armortech</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="guy762_HelmetModMakeNoQuality">
+		<defName>guy762_SithHelmet_colorcommando</defName>
+		<label>Sith Commando Helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>This bulky powered helmet was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
+		<graphicData>
+			<texPath>Apparel/Sith/commando/dulled/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>7.5</Mass>
+			<MarketValue>6500</MarketValue>
+			<MaxHitPoints>235</MaxHitPoints>
+      		<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<EquipDelay>6</EquipDelay>
+			
+			<WorkToMake>22000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<!--factionPrerequisiteTags>
+				<li>guy762_KotORFaction_Mando</li>
+			</factionPrerequisiteTags-->
+		</recipeMaker>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<KOTOR_AlloyDurasteel>20</KOTOR_AlloyDurasteel>
+		</costList>
+		
+		<apparel Inherit="False">
+			<drawData>
+				<defaultData>
+					<layer>67</layer>
+				</defaultData>
+			</drawData>
+			<tags>
+				<!--li>EVA</li-->
+				<li>SE_apparel_commando</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/commando/dulled/Helmet</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+				<li>EyeCover</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(120,0,0)</only>  <!--red-->
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(62,62,62)</only>  <!--black-->
+				</li>
+				<li>
+					<weight>1</weight>
+					<only>(210,175,75)</only>  <!--gold-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_hat</li>
+			  <li>guy762_slot_overlay_hvy</li>
+			  <li>guy762_slot_helmettech</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef>
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        <!--tunics-->
+
+	
+  <ThingDef ParentName="KotORArmorModdable_soft">
+    <defName>guy762_SithTunic_apprentice</defName>
+    <label>Sith Apprentice tunic</label>
+    <description>These are simple robes, kept modest not by a desire to appear humble, but to offer the greatest freedom of movement during battle.</description>
+    <graphicData>
+      <texPath>Apparel/Sith/apprentice/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+		<Mass>2</Mass>
+		<MarketValue>100</MarketValue>
+		<MaxHitPoints>100</MaxHitPoints>
+		<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<Insulation_Cold>7.5</Insulation_Cold>
+        <Insulation_Heat>7.5</Insulation_Heat>
+		<EquipDelay>3</EquipDelay>
+		
+		<WorkToMake>8000</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+	  <MeleeDodgeChance>0.1</MeleeDodgeChance>
+      <PsychicSensitivity>0.1</PsychicSensitivity>
+    </equippedStatOffsets>
+	
+	<costList Inherit="False">
+		<Synthread>60</Synthread>
+		<!--VPE_Eltex>3</VPE_Eltex> added by patch -->
+	  </costList>
+	  <recipeMaker>
+		<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+		<skillRequirements>
+		  <Crafting>8</Crafting>
+		</skillRequirements>
+	  </recipeMaker>
+	
+    <apparel>
+		<layers>
+			<li>OnSkin</li>
+			<!--li>Middle</li-->
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<tags Inherit="False">
+			<li>SE_sithapprentice</li>
+		</tags>
+		<wornGraphicPath>Apparel/Sith/apprentice/Apparel</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_SEArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>100</weight>
+				<only>(135,135,135)</only>       <!--K1-->
+			</li>
+			<!--li>
+				<weight>1</weight>
+				<only>(250,145,35)</only>
+			</li-->
+		</options>
+	</colorGenerator>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="guy762_HatCraftableBase">
+    <defName>guy762_SithHood_masked</defName>
+    <label>hood, masked</label>
+    <description>A masked hood for remaining anonymous.</description>
+    <graphicData>
+      <texPath>Apparel/Sith/apprentice/hood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+	  <MarketValue>20</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.05</Mass>
+	  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.01</ArmorRating_Heat>
+	  <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>0.125</EquipDelay>
+	  <WorkToMake>5000</WorkToMake>
+    </statBases>
+	<costList>
+		<Synthread>40</Synthread>
+	</costList>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+			<li>guy762_KotORWorkbench</li>
+		</recipeUsers>
+	</recipeMaker>
+    <apparel>
+      <drawData>
+		<defaultData>
+			<layer>71</layer>
+		</defaultData>
+		<dataNorth>
+		  <layer>90</layer>
+	    </dataNorth>
+	  </drawData>
+	  <renderSkipFlags>
+		<li>Hair</li>
+		<li>Beard</li>
+	  </renderSkipFlags>
+	  <wornGraphicPath>Apparel/Sith/apprentice/hood</wornGraphicPath>
+      <bodyPartGroups>
+		<li>UpperHead</li>
+		<li>Mouth</li>
+      </bodyPartGroups>
+      <layers>
+		<li>Overhead</li>
+      </layers>
+	  <tags>
+		<li>SE_sithapprentice</li>
+	  </tags>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_SEArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(62,62,62)</only>
+			</li>
+		</options>
+	</colorGenerator>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="KotORArmorModdable_soft">
+    <defName>guy762_SithTunic_assassin</defName>
+    <label>Sith Assassin tunic</label>
+    <description>These are simple robes, kept modest not by a desire to appear humble, but to offer the greatest freedom of movement during battle.</description>
+    <graphicData>
+      <texPath>Apparel/Sith/assassin/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+		<Mass>4</Mass>
+		<MarketValue>900</MarketValue>
+		<MaxHitPoints>150</MaxHitPoints>
+		<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.2</ArmorRating_Heat>
+		<Insulation_Cold>15</Insulation_Cold>
+		<Insulation_Heat>15</Insulation_Heat>
+		<EquipDelay>5</EquipDelay>
+		
+		<WorkToMake>10000</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+      <PsychicSensitivity>0.1</PsychicSensitivity>
+	  <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+    </equippedStatOffsets>
+	
+	<costList Inherit="False">
+		<Synthread>90</Synthread>
+		<!--VPE_Eltex>4</VPE_Eltex> added by patch -->
+	  </costList>
+	  <recipeMaker>
+		<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+		<skillRequirements>
+		  <Crafting>10</Crafting>
+		</skillRequirements>
+	  </recipeMaker>
+	
+    <apparel>
+		<layers>
+			<li>OnSkin</li>
+			<!--li>Middle</li-->
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<tags Inherit="False">
+			<li>SE_sithassassin</li>
+		</tags>
+		<wornGraphicPath>Apparel/Sith/assassin/Apparel</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_SEArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(180,185,185)</only>
+			</li>
+		</options>
+	</colorGenerator>
+	<comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_underlay_robe</li>
+		</partKinds>
+		<randomizeParts>true</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="guy762_HeadbandBase">
+    <defName>guy762_SithMask_assassin</defName>
+    <label>Sith Assassin mask</label>
+    <description>The last thing any assassin wants is to choke on their own nerve gas. This Sith mask both channels the force and filters harmful fumes.</description>
+    <graphicData>
+      <texPath>Apparel/Sith/assassin/mask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+	  <MarketValue>500</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+	  <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+		<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+		<SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+	</equippedStatOffsets>
+	
+	<thingCategories>
+	  <li>guy762_ThingCategory_KotORArmor</li>
+	</thingCategories>
+	
+    <apparel>
+      <!--drawData>
+			<defaultData>
+				<layer>51</layer>
+			</defaultData>
+	  </drawData-->
+	  <wornGraphicPath>Apparel/Sith/assassin/mask</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+		<li>Overhead</li>
+		<li>EyeCover</li>
+	  </layers>
+	  <bodyPartGroups>
+		<li>FullHead</li>
+	  </bodyPartGroups>
+	  <tags>
+		<li>SE_sithassassin</li>
+	  </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	  <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_SEArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(100,110,110)</only>
+			</li>
+			<!--li>
+				<weight>10</weight>
+				<only>(180,185,185)</only>
+			</li-->
+		</options>
+	</colorGenerator>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="KotORArmorModdable_soft">
+    <defName>guy762_SithTunic_warrior</defName>
+    <label>Sith Warrior tunic</label>
+    <description>Designed for those who relish personal combat, and know that power comes to those who take it, these robes offer good protection with no hindrance to movement.</description>
+    <graphicData>
+      <texPath>Apparel/Sith/warrior/Apparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+		<Mass>6</Mass>
+		<MarketValue>2200</MarketValue>
+		<MaxHitPoints>150</MaxHitPoints>
+		<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>15</Insulation_Cold>
+		<Insulation_Heat>15</Insulation_Heat>
+		<EquipDelay>6</EquipDelay>
+		
+		<WorkToMake>12500</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+	  <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+      <PsychicSensitivity>0.1</PsychicSensitivity>
+    </equippedStatOffsets>
+	
+	<costList Inherit="False">
+		<Synthread>80</Synthread>
+		<KOTOR_FabricArmorweave>25</KOTOR_FabricArmorweave>
+		<!--VPE_Eltex>3</VPE_Eltex> added by patch -->
+	  </costList>
+	  <recipeMaker>
+		<researchPrerequisite>guy762_ResearchKotOR_sith</researchPrerequisite>
+		<skillRequirements>
+		  <Crafting>12</Crafting>
+		</skillRequirements>
+	  </recipeMaker>
+	
+    <apparel>
+		<layers>
+			<li>OnSkin</li>
+			<li>Middle</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<tags Inherit="False">
+			<li>SE_sithwarrior</li>
+		</tags>
+		<wornGraphicPath>Apparel/Sith/warrior/Apparel</wornGraphicPath>
+		<useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_SEArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(180,185,185)</only>
+			</li>
+		</options>
+	</colorGenerator>
+	<comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_underlay_robe</li>
+		</partKinds>
+		<randomizeParts>true</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_HeadbandBase">
+    <defName>guy762_SithMask_warrior</defName>
+    <label>Sith mask</label>
+    <description>This mask blocks outside mental influence and other sensory noise, allowing the user to focus their abilities inward with no distraction.</description>
+    <descriptionHyperlinks>
+		<HediffDef>guy762_Hediff_sithmask</HediffDef>
+	</descriptionHyperlinks>
+	<graphicData>
+      <texPath>Apparel/Sith/warrior/mask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1300</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.25</Mass>
+	  <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.05</ArmorRating_Heat>
+      <EquipDelay>0.5</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+	  <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+    </equippedStatOffsets>
+	
+	<thingCategories>
+	  <li>guy762_ThingCategory_KotORArmor</li>
+	</thingCategories>
+	
+    <apparel>
+      <!--drawData>
+			<defaultData>
+				<layer>51</layer>
+			</defaultData>
+	  </drawData-->
+	  <wornGraphicPath>Apparel/Sith/warrior/mask</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+		<li>Overhead</li>
+		<li>EyeCover</li>
+	  </layers>
+	  <bodyPartGroups>
+		<li>FullHead</li>
+	  </bodyPartGroups>
+	  <tags>
+		<li>SE_sithwarrior</li>
+		<li>SE_sithmask</li>
+	  </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_SEArmor</li>
+	</tradeTags>
+	<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+		<options>
+			<li>
+				<weight>10</weight>
+				<only>(180,185,185)</only>
+			</li>
+		</options>
+	</colorGenerator>
+	<comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>guy762_Hediff_sithmask</hediff>
+        <part>Brain</part>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>guy762_Hediff_sithmask</defName>
+    <label>Sith mask</label>
+    <description>This mask blocks outside mental influence and other sensory noise, allowing the user to focus their abilities inward with no distraction.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+	<modExtensions>
+      <li Class="MentalBreakBlocker.ModExtension_MentalBreakBlocker">
+		<!--choose one: mood, damage, psycast, moodAndDamage, moodAndPsycast, damageAndPsycast, all-->
+		<!--  allow only mood or damage cause  -->
+		<cause>moodAndDamage</cause>
+		<isWhitelist>true</isWhitelist>
+	  </li>
+    </modExtensions>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+	<stages>
+	  <li>
+		<makeImmuneTo>
+			<li MayRequire="guy762.Lee.KotORPotF">SWPotF_hediff_ForceFear</li>
+			<li MayRequire="guy762.Lee.KotORPotF">SWPotF_hediff_ForcePacify</li>
+		</makeImmuneTo>
+		<damageFactors>
+			<Stun>0</Stun>
+		</damageFactors>
+	  </li>
+	</stages>
+    <isBad>false</isBad>
+  </HediffDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	  <ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_SithArmor_marauder</defName>
+		<label>Sith Marauder armor (polished)</label>
+		<description>This armor offers superior protection with minimal restriction of movement. This is the armor of a true master, one whose will and authority go unopposed.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/marauder/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(100,100,110)</colorTwo>         <!--dark slate blue-->
+		</graphicData>
+		<statBases>
+			<Mass>8</Mass>
+			<MarketValue>13000</MarketValue>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>12</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.1</MoveSpeed>
+		  <MeleeDodgeChance>-0.1</MeleeDodgeChance>
+		  <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		  <PsychicSensitivity>0.1</PsychicSensitivity>
+		  <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.3</SuppressionPower>
+		</equippedStatOffsets>
+		
+		<apparel>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>SE_sithmarauder</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/marauder/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(180,180,190)</only>  <!--lighter silver-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_robe</li>
+			  <li>guy762_slot_overlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  <ThingDef ParentName="guy762_HeadbandBase">
+		<defName>guy762_SithMask_marauder</defName>
+		<label>Sith Marauder neck guard (polished)</label>
+		<description>.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/marauder/neck</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+		  <MarketValue>130</MarketValue>
+		  <MaxHitPoints>200</MaxHitPoints>
+		  <Mass>1</Mass>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.35</ArmorRating_Heat>
+		  <EquipDelay>0.5</EquipDelay>
+		</statBases>
+		
+		<thingCategories>
+		  <li>guy762_ThingCategory_KotORArmor</li>
+		</thingCategories>
+		
+		<apparel>
+		  <drawData>
+				<defaultData>
+					<layer>66</layer>
+				</defaultData>
+		  </drawData>
+		  <wornGraphicPath>Apparel/Sith/marauder/neck</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <layers>
+			<li>Overhead</li>
+		  </layers>
+		  <bodyPartGroups>
+			<li>Neck</li>
+		  </bodyPartGroups>
+		  <tags>
+			<li>SE_sithmarauder</li>
+		  </tags>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(180,180,190)</only>  <!--lighter silver-->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_SithArmor_colormarauder</defName>
+		<label>Sith Marauder armor</label>
+		<description>This armor offers superior protection with minimal restriction of movement. This is the armor of a true master, one whose will and authority go unopposed.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/marauder/bandon/Apparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <colorTwo>(100,100,110)</colorTwo>         <!--dark slate blue-->
+		</graphicData>
+		<statBases>
+			<Mass>8</Mass>
+			<MarketValue>13000</MarketValue>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>12</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.1</MoveSpeed>
+		  <MeleeDodgeChance>-0.1</MeleeDodgeChance>
+		  <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		  <PsychicSensitivity>0.1</PsychicSensitivity>
+		  <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.3</SuppressionPower>
+		</equippedStatOffsets>
+		
+		<apparel>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>SE_sithmarauder</li>
+			</tags>
+			<wornGraphicPath>Apparel/Sith/marauder/bandon/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(120,0,0)</only>  <!--red-->
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_robe</li>
+			  <li>guy762_slot_overlay</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	  </ThingDef>
+	  
+	  <ThingDef ParentName="guy762_HeadbandBase">
+		<defName>guy762_SithMask_colormarauder</defName>
+		<label>Sith Marauder neck guard</label>
+		<description>.</description>
+		<graphicData>
+		  <texPath>Apparel/Sith/marauder/neck</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MarketValue>130</MarketValue>
+		  <MaxHitPoints>200</MaxHitPoints>
+		  <Mass>1</Mass>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.35</ArmorRating_Heat>
+		  <EquipDelay>0.5</EquipDelay>
+		</statBases>
+		
+		<thingCategories>
+		  <li>guy762_ThingCategory_KotORArmor</li>
+		</thingCategories>
+		
+		<apparel>
+		  <drawData>
+				<defaultData>
+					<layer>66</layer>
+				</defaultData>
+		  </drawData>
+		  <wornGraphicPath>Apparel/Sith/marauder/neck</wornGraphicPath>
+		  <layers>
+			<li>Overhead</li>
+		  </layers>
+		  <bodyPartGroups>
+			<li>Neck</li>
+		  </bodyPartGroups>
+		  <tags>
+			<li>SE_sithmarauder</li>
+		  </tags>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_SEArmor</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(120,0,0)</only>  <!--red-->
+				</li>
+			</options>
+		</colorGenerator>
+	  </ThingDef>
+
+</Defs>

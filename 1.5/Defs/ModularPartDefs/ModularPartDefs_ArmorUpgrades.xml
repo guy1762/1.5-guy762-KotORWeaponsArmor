@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	  	<!--robe underlay-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_regen_robe</defName>
+    <label>Biorestorative underlay</label>
+    <kind>guy762_slot_underlay_robe</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <InjuryHealingFactor>0.3</InjuryHealingFactor>
+	<costList>
+	  <guy762_underlayitem_regen>1</guy762_underlayitem_regen>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_strength_robe</defName>
+    <label>strengthening underlay</label>
+    <kind>guy762_slot_underlay_robe</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PainShockThresholdFactor>0.1</PainShockThresholdFactor>
+	<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+	<statModifiers>
+      <VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+    </statModifiers>
+	<costList>
+	  <guy762_underlayitem_strength>1</guy762_underlayitem_strength>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <!--ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_armorweave_robe</defName>
+    <label>Armorweave underlay</label>
+    <kind>guy762_slot_underlay_robe</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<ARHeatFactor>0.2</ARHeatFactor>
+	<costList>
+	  <guy762_underlayitem_armorweave>1</guy762_underlayitem_armorweave>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef-->
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_environment_robe</defName>
+    <label>environment underlay</label>
+    <kind>guy762_slot_underlay_robe</kind>
+	<massFactor>5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<InsulationColdFactor>25</InsulationColdFactor>
+	<InsulationHeatFactor>25</InsulationHeatFactor>
+	<costList>
+	  <guy762_underlayitem_environment>1</guy762_underlayitem_environment>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_force_robe</defName>
+    <label>Forceweave underlay</label>
+    <kind>guy762_slot_underlay_robe</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<PsychicSensitivityFactor>0.1</PsychicSensitivityFactor>
+	<statModifiers>
+      <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">1</SWPotF_ForcePoints_Recovery>
+    </statModifiers>
+    <PsychicEntropyRecoveryRateFactor>0.2</PsychicEntropyRecoveryRateFactor>
+	<costList>
+	  <guy762_underlayitem_force>1</guy762_underlayitem_force>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  
+	<!--helmet underlay-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_regen_hat</defName>
+    <label>Biorestorative underlay</label>
+    <kind>guy762_slot_underlay_hat</kind>
+	<massFactor>1.25</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <InjuryHealingFactor>0.3</InjuryHealingFactor>
+	<costList>
+	  <guy762_underlayitem_regen>1</guy762_underlayitem_regen>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_armorweave_hat</defName>
+    <label>Armorweave underlay</label>
+    <kind>guy762_slot_underlay_hat</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<ARHeatFactor>0.2</ARHeatFactor>
+	<costList>
+	  <guy762_underlayitem_armorweave>1</guy762_underlayitem_armorweave>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_durasteel_hat</defName>
+    <label>Durasteel underlay</label>
+    <kind>guy762_slot_underlay_hat</kind>
+	<massFactor>5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARSharpFactor>0.3</ARSharpFactor>
+    <ARBluntFactor>0.3</ARBluntFactor>
+	<warmupTimeFactor>0.2</warmupTimeFactor>
+	<costList>
+	  <guy762_underlayitem_durasteel>1</guy762_underlayitem_durasteel>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_environment_hat</defName>
+    <label>environment underlay</label>
+    <kind>guy762_slot_underlay_hat</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<InsulationColdFactor>25</InsulationColdFactor>
+	<InsulationHeatFactor>25</InsulationHeatFactor>
+	<costList>
+	  <guy762_underlayitem_environment>1</guy762_underlayitem_environment>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>	
+		
+		
+		
+		<!--armor underlay-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_regen</defName>
+    <label>Biorestorative underlay</label>
+    <kind>guy762_slot_underlay</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <InjuryHealingFactor>0.3</InjuryHealingFactor>
+	<costList>
+	  <guy762_underlayitem_regen>1</guy762_underlayitem_regen>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_strength</defName>
+    <label>strengthening underlay</label>
+    <kind>guy762_slot_underlay</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PainShockThresholdFactor>0.1</PainShockThresholdFactor>
+	<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+	<statModifiers>
+      <VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+    </statModifiers>
+	<costList>
+	  <guy762_underlayitem_strength>1</guy762_underlayitem_strength>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <!--ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_flex</defName>
+    <label>flexible underlay</label>
+    <kind>guy762_slot_underlay</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <MeleeDodgeChanceFactor>0.1</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>0.1</MoveSpeedFactor>
+	<MeleeCooldownMultiplierFactor>-0.2</MeleeCooldownMultiplierFactor>
+	<costList>
+	  <guy762_underlayitem_flex>1</guy762_underlayitem_flex>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef-->
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_armorweave</defName>
+    <label>Armorweave underlay</label>
+    <kind>guy762_slot_underlay</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<ARHeatFactor>0.2</ARHeatFactor>
+	<costList>
+	  <guy762_underlayitem_armorweave>1</guy762_underlayitem_armorweave>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_durasteel</defName>
+    <label>Durasteel underlay</label>
+    <kind>guy762_slot_underlay</kind>
+	<massFactor>5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARSharpFactor>0.3</ARSharpFactor>
+    <ARBluntFactor>0.3</ARBluntFactor>
+	<MeleeDodgeChanceFactor>-0.2</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>-0.2</MoveSpeedFactor>
+	<costList>
+	  <guy762_underlayitem_durasteel>1</guy762_underlayitem_durasteel>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_environment</defName>
+    <label>environment underlay</label>
+    <kind>guy762_slot_underlay</kind>
+	<massFactor>5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<InsulationColdFactor>25</InsulationColdFactor>
+	<InsulationHeatFactor>25</InsulationHeatFactor>
+	<costList>
+	  <guy762_underlayitem_environment>1</guy762_underlayitem_environment>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  <!--heavy armor underlay-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_regen_hvy</defName>
+    <label>Biorestorative underlay</label>
+    <kind>guy762_slot_underlay_hvy</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <InjuryHealingFactor>0.3</InjuryHealingFactor>
+	<costList>
+	  <guy762_underlayitem_regen>1</guy762_underlayitem_regen>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_strength_hvy</defName>
+    <label>strengthening underlay</label>
+    <kind>guy762_slot_underlay_hvy</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <PainShockThresholdFactor>0.1</PainShockThresholdFactor>
+	<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+	<statModifiers>
+      <VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+    </statModifiers>
+	<costList>
+	  <guy762_underlayitem_strength>1</guy762_underlayitem_strength>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_flex_hvy</defName>
+    <label>flexible underlay</label>
+    <kind>guy762_slot_underlay_hvy</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+    <MeleeDodgeChanceFactor>0.1</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>0.1</MoveSpeedFactor>
+	<MeleeCooldownMultiplierFactor>-0.2</MeleeCooldownMultiplierFactor>
+	<costList>
+	  <guy762_underlayitem_flex>1</guy762_underlayitem_flex>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_armorweave_hvy</defName>
+    <label>Armorweave underlay</label>
+    <kind>guy762_slot_underlay_hvy</kind>
+	<massFactor>2.5</massFactor>
+    <EquipDelayFactor>-2</EquipDelayFactor>
+	<ARHeatFactor>0.2</ARHeatFactor>
+	<costList>
+	  <guy762_underlayitem_armorweave>1</guy762_underlayitem_armorweave>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_durasteel_hvy</defName>
+    <label>Durasteel underlay</label>
+    <kind>guy762_slot_underlay_hvy</kind>
+	<massFactor>5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARSharpFactor>0.3</ARSharpFactor>
+    <ARBluntFactor>0.3</ARBluntFactor>
+	<MeleeDodgeChanceFactor>-0.2</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>-0.2</MoveSpeedFactor>
+	<costList>
+	  <guy762_underlayitem_durasteel>1</guy762_underlayitem_durasteel>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_underlay_environment_hvy</defName>
+    <label>environment underlay</label>
+    <kind>guy762_slot_underlay_hvy</kind>
+	<massFactor>5</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<InsulationColdFactor>25</InsulationColdFactor>
+	<InsulationHeatFactor>25</InsulationHeatFactor>
+	<costList>
+	  <guy762_underlayitem_environment>1</guy762_underlayitem_environment>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  
+  
+  
+  
+  <!--armor overlay-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_pockets</defName>
+    <label>integrated pockets</label>
+    <kind>guy762_slot_overlay</kind>
+	<massFactor>0</massFactor>
+    <statModifiers>
+      <VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+    </statModifiers>
+	<costList>
+	  <KOTOR_FabricArmorweave>40</KOTOR_FabricArmorweave>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_heat</defName>
+    <label>heat shielding</label>
+    <kind>guy762_slot_overlay</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+    <InsulationHeatFactor>25</InsulationHeatFactor>
+	<ARHeatFactor>0.1</ARHeatFactor>
+	<costList>
+	  <guy762_overlayitem_heat>1</guy762_overlayitem_heat>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_energy</defName>
+    <label>energy shielding</label>
+    <kind>guy762_slot_overlay</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARHeatFactor>0.3</ARHeatFactor>
+	<costList>
+	  <guy762_overlayitem_energy>1</guy762_overlayitem_energy>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_ballistic</defName>
+    <label>ballistic shielding</label>
+    <kind>guy762_slot_overlay</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARSharpFactor>0.2</ARSharpFactor>
+    <ARBluntFactor>0.2</ARBluntFactor>
+	<costList>
+	  <guy762_overlayitem_ballistic>1</guy762_overlayitem_ballistic>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_armorply</defName>
+    <label>Armorply plating</label>
+    <kind>guy762_slot_overlay</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+    <HuntingStealthFactor>0.6</HuntingStealthFactor>
+	<PawnTrapSpringChanceFactor>-0.1</PawnTrapSpringChanceFactor>
+	<MeleeDodgeChanceFactor>0.1</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>0.1</MoveSpeedFactor>
+	<costList>
+	  <guy762_overlayitem_armorply>1</guy762_overlayitem_armorply>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--heavy armor overlay-->
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_pockets_hvy</defName>
+    <label>integrated pockets</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>0</massFactor>
+    <statModifiers>
+      <VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+    </statModifiers>
+	<costList>
+	  <KOTOR_FabricArmorweave>40</KOTOR_FabricArmorweave>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_heat_hvy</defName>
+    <label>heat shielding</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+    <InsulationHeatFactor>25</InsulationHeatFactor>
+	<ARHeatFactor>0.1</ARHeatFactor>
+	<costList>
+	  <guy762_overlayitem_heat>1</guy762_overlayitem_heat>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_energy_hvy</defName>
+    <label>energy shielding</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARHeatFactor>0.3</ARHeatFactor>
+	<costList>
+	  <guy762_overlayitem_energy>1</guy762_overlayitem_energy>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_ballistic_hvy</defName>
+    <label>ballistic shielding</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<ARSharpFactor>0.2</ARSharpFactor>
+    <ARBluntFactor>0.2</ARBluntFactor>
+	<costList>
+	  <guy762_overlayitem_ballistic>1</guy762_overlayitem_ballistic>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_armorply_hvy</defName>
+    <label>Armorply plating</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>4</massFactor>
+    <EquipDelayFactor>-4</EquipDelayFactor>
+	<HuntingStealthFactor>0.6</HuntingStealthFactor>
+	<PawnTrapSpringChanceFactor>-0.1</PawnTrapSpringChanceFactor>
+	<MeleeDodgeChanceFactor>0.1</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>0.1</MoveSpeedFactor>
+	<costList>
+	  <guy762_overlayitem_armorply>1</guy762_overlayitem_armorply>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_ablative_hvy</defName>
+    <label>ablative plating</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>6</massFactor>
+    <EquipDelayFactor>-6</EquipDelayFactor>
+    <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+	<ARHeatFactor>0.3</ARHeatFactor>
+	<MeleeDodgeChanceFactor>-0.1</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>-0.1</MoveSpeedFactor>
+	<costList>
+	  <guy762_overlayitem_ablative>1</guy762_overlayitem_ablative>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_bonded_hvy</defName>
+    <label>bonded plates</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>6</massFactor>
+    <EquipDelayFactor>-6</EquipDelayFactor>
+    <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+	<ARSharpFactor>0.1</ARSharpFactor>
+    <ARBluntFactor>0.1</ARBluntFactor>
+	<costList>
+	  <guy762_overlayitem_bonded>1</guy762_overlayitem_bonded>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_hvybonded_hvy</defName>
+    <label>heavy bonded plates</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>8</massFactor>
+    <EquipDelayFactor>-8</EquipDelayFactor>
+    <IncomingDamageFactor>-0.3</IncomingDamageFactor>
+	<ARHeatFactor>0.2</ARHeatFactor>
+	<MeleeDodgeChanceFactor>-0.3</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>-0.3</MoveSpeedFactor>
+	<costList>
+	  <guy762_overlayitem_hvybonded>1</guy762_overlayitem_hvybonded>
+	</costList>
+	<isRare>true</isRare>
+  </ModularWeapons.ModularPartDef>
+  
+  <ModularWeapons.ModularPartDef>
+    <defName>guy762_overlay_beskar_hvy</defName>
+    <label>Beskar plating</label>
+    <kind>guy762_slot_overlay_hvy</kind>
+	<massFactor>8</massFactor>
+    <EquipDelayFactor>-8</EquipDelayFactor>
+    <IncomingDamageFactor>-0.2</IncomingDamageFactor>
+	<ARHeatFactor>0.4</ARHeatFactor>
+	<MeleeDodgeChanceFactor>-0.3</MeleeDodgeChanceFactor>
+	<MoveSpeedFactor>-0.3</MoveSpeedFactor>
+	<costList>
+	  <guy762_overlayitem_beskar>1</guy762_overlayitem_beskar>
+	</costList>
+	<isRare>true</isRare>
+	<researchPrerequisites>
+	  <li>guy762_ResearchKotOR_advupgrade</li>
+	</researchPrerequisites>
+  </ModularWeapons.ModularPartDef>
+  
+  
+	
+  
+
+</Defs>

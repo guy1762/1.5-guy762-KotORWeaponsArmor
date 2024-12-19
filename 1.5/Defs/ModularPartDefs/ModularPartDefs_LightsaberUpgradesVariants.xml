@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+
+
+
+	<!--colorcrystals-->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_dark</defName>
+		<label>Pride of Mandalore</label>
+		<kind>guy762_slot_darksabercolor</kind>
+		<path>Blade_Dark</path>
+		<massFactor>0.2</massFactor>
+		<MeleeAverageAPFactor>0.6</MeleeAverageAPFactor>
+		<PainShockThresholdFactor>0.4</PainShockThresholdFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_nadd</defName>
+		<label>Heart of the Guardian</label>
+		<kind>guy762_slot_naddsabercolor</kind>
+		<path>Blade_Heart</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<PsychicSensitivityFactor>0.2</PsychicSensitivityFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_exar</defName>
+		<label>Mantle of the Force</label>
+		<kind>guy762_slot_exarsabercolor</kind>
+		<path>Blade_Mantle</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<PsychicEntropyRecoveryRateFactor>0.4</PsychicEntropyRecoveryRateFactor>
+		<statModifiers>
+		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">2</SWPotF_ForcePoints_Recovery>
+		</statModifiers>
+		<PsychicSensitivityFactor>0.4</PsychicSensitivityFactor>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_sion</defName>
+		<label>fractured Kyber crystal</label>
+		<kind>guy762_slot_sionsabercolor</kind>
+		<path>Blade_Cracked</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.5</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.5</MeleeAverageAPFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<MentalBreakThresholdFactor>0.5</MentalBreakThresholdFactor>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+
+
+
+	  
+
+	  
+	  
+	  
+	  
+	  
+	
+	  
+	  
+	  
+	  
+	  
+</Defs>

@@ -1,0 +1,68 @@
+<ModMetaData>
+	<name>Star Wars KotOR Weapons and Armor</name>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon_guy762_KotORWeaponsArmor</modIconPath>
+	<packageId>guy762.KotORWeapons</packageId>
+	<author>guy762</author>
+	<description>Adds blasters, lightsabers, vibroblades, grenades, gadgets, armors, and equipment from Star Wars: Knights of the Old Republic and Star Wars: Knights of the Old Republic II - The Sith Lords.\n\nRIMPY USERS DOWNLOAD FROM HERE: https://github.com/guy1762/1.5ZIP_StarWarsKotORWeaponsArmor/tree/main\n\nDOWNLOAD THE FINAL 1.4 VERSION OF THIS MOD HERE: https://github.com/guy1762/SWKotOR-Project-1.4-Final-Build/tree/main</description>
+	<supportedVersions>
+		<!--li>1.4</li-->
+		<li>1.5</li>
+	</supportedVersions>
+	<url>https://github.com/guy1762/1.5ZIP_StarWarsKotORWeaponsArmor/tree/main</url>
+	
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>smartkar.athenaframework</packageId>
+			<displayName>Athena Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2903359518</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>kaitorisenkou.ModularWeapons</packageId>
+			<displayName>ModularWeapons</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2878204522</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>guy762.MM.KotORCore</packageId>
+			<displayName>Star Wars KotOR Resources and Materials</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3254370945</steamWorkshopUrl>
+			<downloadUrl>https://github.com/guy1762/1.5ZIP_StarWarsKotORCore/tree/main</downloadUrl>
+		</li>
+	</modDependencies>
+	
+
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>VanillaExpanded.VPsycastsE</li>
+		<li>jecrell.jecstools</li>
+		<li>EBSG.Framework</li>
+		<li>Roolo.DualWield</li>
+		<li>kaitorisenkou.ModularWeapons</li>
+		
+		<li>Killathon.ArtificialBeings</li>
+		<li>Killathon.ArtificialBeings.SynCore</li>
+		<li>smartkar.athenaframework</li>
+		<li>jecrell.StarWarsTheForce</li>
+		
+		<li>kentington.saveourship2</li>
+		<li>sindre0830.rimnauts2</li>
+		
+		<li>guy762.StarWarsXenotypes</li>
+		<li>guy762.MM.KotORCore</li>
+	</loadAfter>
+	<loadBefore>
+		<li>guy762.KotORDroids</li>
+		<li>guy762.KotORFactions</li>
+	</loadBefore>
+	
+	<incompatibleWith>
+	  <li>guy762.KotORGadgets</li>
+	</incompatibleWith>
+</ModMetaData>

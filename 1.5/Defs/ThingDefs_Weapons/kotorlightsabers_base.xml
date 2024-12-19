@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  
+  <ThingDef Name="guy762_kotorshortsaber" ParentName="KotORMeleeNoQualityModMake_OffHand" Abstract="True">
+    <defName>guy762_kotorshortsaber</defName>
+    <label>short lightsaber</label>
+    <description>Lightsabers can come in shorter styles, often used in the off hand during two-weapon fighting. As in larger versions, different focusing crystals can produce additional effects.</description>
+    <graphicData>
+      <texPath>kotorshortsaber_default</texPath>
+      <graphicClass>ModularWeapons.Graphic_Modular</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>kotorsound_lightsaber_on</soundInteract>
+	<soundDrop>kotorsound_lightsaber_off</soundDrop>
+	<thingCategories Inherit="False">
+		<li>guy762_lightsaber</li>
+		<li>guy762_ThingCategory_KotORWeapons</li>
+	</thingCategories>
+    <statBases>
+      <MarketValue>9000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+	  
+	  <WorkToMake>5000</WorkToMake>
+    </statBases>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+	<equippedStatOffsets>
+	  <PsychicSensitivity>0.1</PsychicSensitivity>
+	  <MeditationFocusGain>0.25</MeditationFocusGain>
+	</equippedStatOffsets>
+	
+	<recipeMaker>
+	  <researchPrerequisite>guy762_ResearchKotOR_lightsabers</researchPrerequisite>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <skillRequirements>
+		<Crafting>6</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+	<costList>
+		<guy762_saberpart_lens>1</guy762_saberpart_lens>
+		<guy762_saberpart_emitter>1</guy762_saberpart_emitter>
+		<guy762_saberpart_pcell>1</guy762_saberpart_pcell>
+		<Steel>15</Steel>
+	</costList>
+	
+	<weaponTags Inherit="False">
+		<li>KotORLightsaber</li>
+	</weaponTags>
+	<tradeTags Inherit="False">
+		<li>guy762TT_KotORLegendary</li>
+		<li>guy762TT_KotORLightsaber</li>
+	</tradeTags>
+	<relicChance>3</relicChance>
+	<!--possessionCount>1</possessionCount-->
+    <comps>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundHitPawn>kotorsound_lightsaber_hitsoft</soundHitPawn>
+        <soundHitBuilding>kotorsound_lightsaber_hithard</soundHitBuilding>
+      </li>
+	  <li Class="CompDeflector.CompProperties_Deflector">
+        <baseDeflectChance>0.1</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>kotorsound_lightsaber_deflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.02</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>0.01</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+    </comps>
+	
+	
+	
+	
+	
+    <tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+		<!---->
+        <power>10</power>
+		<chanceFactor>0.05</chanceFactor>
+        <cooldownTime>4</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberStab</li>
+        </capacities>
+		<!---->
+        <power>24</power>
+		<chanceFactor>1.5</chanceFactor>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberSlash</li>
+        </capacities>
+		<!---->
+        <power>24</power>
+		<chanceFactor>0.5</chanceFactor>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef Name="guy762_kotorlightsaber" ParentName="KotORMeleeNoQualityModMake_OneHand" Abstract="True">
+    <defName>guy762_kotorlightsaber</defName>
+    <label>lightsaber</label>
+    <description>Traditionally associated with the Jedi, the lightsaber is a devastating weapon difficult to master. Properties can vary with the type of focusing crystal used in construction.</description>
+    <graphicData>
+      <texPath>kotorlightsaber_default</texPath>
+      <graphicClass>ModularWeapons.Graphic_Modular</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>kotorsound_lightsaber_on</soundInteract>
+	<soundDrop>kotorsound_lightsaber_off</soundDrop>
+	<thingCategories Inherit="False">
+		<li>guy762_lightsaber</li>
+		<li>guy762_ThingCategory_KotORWeapons</li>
+	</thingCategories>
+    <statBases>
+      <MarketValue>9000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>5</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+	  
+	  <WorkToMake>6000</WorkToMake>
+    </statBases>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+	<equippedStatOffsets>
+	  <PsychicSensitivity>0.1</PsychicSensitivity>
+	  <MeditationFocusGain>0.25</MeditationFocusGain>
+	</equippedStatOffsets>
+	
+	<recipeMaker>
+	  <researchPrerequisite>guy762_ResearchKotOR_lightsabers</researchPrerequisite>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <skillRequirements>
+		<Crafting>6</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+	<costList>
+		<guy762_saberpart_lens>1</guy762_saberpart_lens>
+		<guy762_saberpart_emitter>1</guy762_saberpart_emitter>
+		<guy762_saberpart_pcell>1</guy762_saberpart_pcell>
+		<Steel>25</Steel>
+	</costList>
+	
+	<weaponTags Inherit="False">
+		<li>KotORLightsaber</li>
+	</weaponTags>
+	<tradeTags Inherit="False">
+		<li>guy762TT_KotORLegendary</li>
+		<li>guy762TT_KotORLightsaber</li>
+	</tradeTags>
+	<relicChance>3</relicChance>
+	<!--possessionCount>1</possessionCount-->
+    <comps>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundHitPawn>kotorsound_lightsaber_hitsoft</soundHitPawn>
+        <soundHitBuilding>kotorsound_lightsaber_hithard</soundHitBuilding>
+      </li>
+      <li Class="CompDeflector.CompProperties_Deflector">
+        <baseDeflectChance>0.15</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>kotorsound_lightsaber_deflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.04</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>0.02</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+	  <!--li Class="CompProperties_Biocodable">
+		<biocodeOnEquip>true</biocodeOnEquip>
+	  </li-->
+    </comps>
+	
+	<!--modExtensions>
+	  <li Class="AP_BulletReflection.BulletReflection_ModExtension">
+		<useSkill>Melee</useSkill>
+		<chanceMultiplier>1</chanceMultiplier>
+		<reflectDamageDefs>
+		  <li>guy762_RangedDamage_energy</li>
+		  <li>guy762_BeamDamage_energy</li>
+		  <li>Beam</li>
+		  <li>guy762_RangedDamage_concussion</li>
+		  
+		  <li>guy762_RangedDamage_ion</li>
+		  
+		  <li>guy762_RangedDamage_electrical</li>
+		  <li>guy762_BeamDamage_electrical</li>
+		  
+		  <li>guy762_RangedDamage_disruptor</li>
+		  
+		</reflectDamageDefs>
+		<soundToPlay>
+			<li>Interact_BeatFire</li>
+			<li>PokerChips</li>
+			<li>kotorsound_lightsaber_deflect</li>
+		</soundToPlay>
+	  </li>
+	</modExtensions-->
+	
+	
+	
+    <tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+		<!---->
+        <power>12</power>
+		<chanceFactor>0.05</chanceFactor>
+        <cooldownTime>4</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberStab</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>0.5</chanceFactor>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberSlash</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>1.5</chanceFactor>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef Name="guy762_kotorcurvesaber" ParentName="KotORMeleeNoQualityModMake_TwoHand" Abstract="True">
+    <defName>guy762_kotorcurvesaber</defName>
+    <label>curved lightsaber</label>
+    <description>Traditionally associated with the Jedi, the lightsaber is a devastating weapon difficult to master. This style of lightsaber has a curved hilt ideal for rapid, thrusting attacks. Experts in the Makashi form typically prefer hilts such as these.</description>
+    <graphicData>
+      <texPath>kotorcurvesaber_default</texPath>
+      <graphicClass>ModularWeapons.Graphic_Modular</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>kotorsound_lightsaber_on</soundInteract>
+	<soundDrop>kotorsound_lightsaber_off</soundDrop>
+	<thingCategories Inherit="False">
+		<li>guy762_lightsaber</li>
+		<li>guy762_ThingCategory_KotORWeapons</li>
+	</thingCategories>
+    <statBases>
+      <MarketValue>10000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>5</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+	  
+	  <WorkToMake>10000</WorkToMake>
+    </statBases>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+	<equippedStatOffsets>
+	  <MeleeHitChance>0.2</MeleeHitChance>
+	  <PsychicSensitivity>0.1</PsychicSensitivity>
+	  <MeditationFocusGain>0.25</MeditationFocusGain>
+	</equippedStatOffsets>
+	
+	<recipeMaker>
+	  <researchPrerequisite>guy762_ResearchKotOR_lightsabers</researchPrerequisite>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <skillRequirements>
+		<Melee>14</Melee>
+		<Crafting>6</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+	<costList>
+		<guy762_saberpart_lens>1</guy762_saberpart_lens>
+		<guy762_saberpart_emitter>1</guy762_saberpart_emitter>
+		<guy762_saberpart_pcell>1</guy762_saberpart_pcell>
+		<Steel>25</Steel>
+		<KOTOR_AlloyBronzium>5</KOTOR_AlloyBronzium>
+	</costList>
+	
+	<weaponTags Inherit="False">
+		<li>KotORLightsaber</li>
+	</weaponTags>
+	<tradeTags Inherit="False">
+		<li>guy762TT_KotORLegendary</li>
+		<li>guy762TT_KotORLightsaber</li>
+	</tradeTags>
+	<relicChance>3</relicChance>
+	<!--possessionCount>1</possessionCount-->
+    <comps>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundHitPawn>kotorsound_lightsaber_hitsoft</soundHitPawn>
+        <soundHitBuilding>kotorsound_lightsaber_hithard</soundHitBuilding>
+      </li>
+	  <li Class="CompDeflector.CompProperties_Deflector">
+        <baseDeflectChance>0.15</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>kotorsound_lightsaber_deflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.04</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>0.02</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+	  <!--li Class="CompProperties_Biocodable">
+		<biocodeOnEquip>true</biocodeOnEquip>
+	  </li-->
+    </comps>
+	
+	
+	
+	
+    <tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+		<!---->
+        <power>10</power>
+		<chanceFactor>0.01</chanceFactor>
+        <cooldownTime>5</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberStab</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>1.25</chanceFactor>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberSlash</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>0.75</chanceFactor>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef Name="guy762_kotorcrosssaber" ParentName="KotORMeleeNoQualityModMake_TwoHand" Abstract="True">
+    <defName>guy762_kotorcrosssaber</defName>
+    <label>crossguard lightsaber</label>
+    <description>First popularized by Jedi Guardians during the Great Galactic War, these weapons are capable of delivering devastating blows using the leverage of its lengthened hilt, at the cost of some maneuverability. The quillon blades below the main emitter serve a dual purpose of helping block blows that otherwise might have struck the wielder's hands, and also providing an extra blade to stab an opponent with when in a "saber lock."</description>
+    <graphicData>
+      <texPath>kotorcrosssaber_default</texPath>
+      <graphicClass>ModularWeapons.Graphic_Modular</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>1.5</drawSize>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>kotorsound_lightsaber_on</soundInteract>
+	<soundDrop>kotorsound_lightsaber_off</soundDrop>
+	<thingCategories Inherit="False">
+		<li>guy762_lightsaber</li>
+		<li>guy762_ThingCategory_KotORWeapons</li>
+	</thingCategories>
+    <statBases>
+      <MarketValue>12000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>6</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+	  
+	  <WorkToMake>14000</WorkToMake>
+    </statBases>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+	<equippedStatOffsets>
+	  <PsychicSensitivity>0.1</PsychicSensitivity>
+	  <MeditationFocusGain>0.25</MeditationFocusGain>
+	</equippedStatOffsets>
+	
+	<recipeMaker>
+	  <researchPrerequisite>guy762_ResearchKotOR_advsabers</researchPrerequisite>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <skillRequirements>
+		<Melee>12</Melee>
+		<Crafting>12</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+	<costList>
+		<guy762_saberpart_lens>3</guy762_saberpart_lens>
+		<guy762_saberpart_emitter>1</guy762_saberpart_emitter>
+		<guy762_saberpart_pcell>1</guy762_saberpart_pcell>
+		<ComponentIndustrial>4</ComponentIndustrial>
+		<ComponentSpacer>2</ComponentSpacer>
+		<Steel>40</Steel>
+	</costList>
+	
+	<weaponTags Inherit="False">
+		<li>KotORLightsaber</li>
+	</weaponTags>
+	<tradeTags Inherit="False">
+		<li>guy762TT_KotORLegendary</li>
+		<li>guy762TT_KotORLightsaber</li>
+	</tradeTags>
+	<relicChance>3</relicChance>
+	<!--possessionCount>1</possessionCount-->
+    <comps>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundHitPawn>kotorsound_lightsaber_hitsoft</soundHitPawn>
+        <soundHitBuilding>kotorsound_lightsaber_hithard</soundHitBuilding>
+      </li>
+	  <li Class="CompDeflector.CompProperties_Deflector">
+        <baseDeflectChance>0.15</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>kotorsound_lightsaber_deflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.04</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>0.02</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+	  <!--li Class="CompProperties_Biocodable">
+		<biocodeOnEquip>true</biocodeOnEquip>
+	  </li-->
+    </comps>
+	
+	
+	
+	
+	
+    <tools>
+      <li>
+        <label>hilt</label>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>Blunt</li>
+		  <li>guy762_ToolCapacity_SaberStab</li>
+        </capacities>
+		<!---->
+        <power>18</power>
+		<chanceFactor>0.1</chanceFactor>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberStab</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>0.75</chanceFactor>
+        <cooldownTime>4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberSlash</li>
+        </capacities>
+		<!---->
+        <power>34</power>
+		<chanceFactor>1.25</chanceFactor>
+        <cooldownTime>3.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef Name="guy762_kotordualsaber" ParentName="KotORMeleeNoQualityModMake_TwoHand" Abstract="True">
+    <defName>guy762_kotordualsaber</defName>
+    <label>double-bladed lightsaber</label>
+    <description>These exotic weapons are rare, and most often associated with Jedi attracted to the dark side of the Force, for whom reckless aggression is sometimes considered an asset. The double-bladed lightsaber is capable of inflicting more damage - but is also less precise - than the single-bladed variant.</description>
+    <graphicData>
+      <texPath>kotordualsaber_default</texPath>
+      <graphicClass>ModularWeapons.Graphic_Modular</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <soundInteract>kotorsound_lightsaber_on</soundInteract>
+	<soundDrop>kotorsound_lightsaber_off</soundDrop>
+	<thingCategories Inherit="False">
+		<li>guy762_lightsaber</li>
+		<li>guy762_ThingCategory_KotORWeapons</li>
+	</thingCategories>
+    <statBases>
+      <MarketValue>12000</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>7.5</Mass>
+      <DeteriorationRate>0.025</DeteriorationRate>
+	  <!--MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier-->
+	  
+	  <WorkToMake>12000</WorkToMake>
+    </statBases>
+	<equippedStatOffsets>
+	  <MeleeHitChance>-0.2</MeleeHitChance>
+	  <PsychicSensitivity>0.1</PsychicSensitivity>
+	  <MeditationFocusGain>0.25</MeditationFocusGain>
+	</equippedStatOffsets>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+	
+	<recipeMaker>
+	  <researchPrerequisite>guy762_ResearchKotOR_advsabers</researchPrerequisite>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+	<costList>
+		<guy762_saberpart_lens>2</guy762_saberpart_lens>
+		<guy762_saberpart_emitter>2</guy762_saberpart_emitter>
+		<guy762_saberpart_pcell>1</guy762_saberpart_pcell>
+		<Steel>50</Steel>
+	</costList>
+	
+	<weaponTags Inherit="False">
+		<li>KotORLightsaber</li>
+	</weaponTags>
+	<tradeTags Inherit="False">
+		<li>guy762TT_KotORLegendary</li>
+		<li>guy762TT_KotORLightsaber</li>
+	</tradeTags>
+	<relicChance>3</relicChance>
+	<!--possessionCount>1</possessionCount-->
+    <comps>
+      <li Class="CompExtraSounds.CompProperties_ExtraSounds">
+        <compClass>CompExtraSounds.CompExtraSounds</compClass>
+        <soundHitPawn>kotorsound_lightsaber_hitsoft</soundHitPawn>
+        <soundHitBuilding>kotorsound_lightsaber_hithard</soundHitBuilding>
+      </li>
+	  <li Class="CompDeflector.CompProperties_Deflector">
+        <baseDeflectChance>0.2</baseDeflectChance>
+        <useManipulationInCalc>true</useManipulationInCalc>
+        <useSkillInCalc>true</useSkillInCalc>
+        <deflectSound>kotorsound_lightsaber_deflect</deflectSound>
+        <deflectSkill>Melee</deflectSkill>
+        <deflectRatePerSkillPoint>0.04</deflectRatePerSkillPoint>
+        <canReflect>true</canReflect>
+        <reflectSkill>Melee</reflectSkill>
+        <reflectRatePerSkillPoint>0.02</reflectRatePerSkillPoint>
+        <DeflectVerb Class="VerbProperties">
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>BulletDeflected</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>24</range>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </DeflectVerb>
+      </li>
+	  <!--li Class="CompProperties_Biocodable">
+		<biocodeOnEquip>true</biocodeOnEquip>
+	  </li-->
+    </comps>
+	
+	
+	
+	
+	
+    <tools>
+      <li>
+        <label>hilt</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+		<!---->
+        <power>6</power>
+		<chanceFactor>0.1</chanceFactor>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>tip</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberStab</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>0.5</chanceFactor>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+        <capacities>
+          <li>guy762_ToolCapacity_SaberSlash</li>
+        </capacities>
+		<!---->
+        <power>26</power>
+		<chanceFactor>2</chanceFactor>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef> 
+  
+  
+  
+ 
+  
+ 
+  
+</Defs>

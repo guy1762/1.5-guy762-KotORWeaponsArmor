@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+
+
+
+	<!--colorcrystals-->
+
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_red</defName>
+		<label>red color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Red</path>
+		<costList>
+		  <guy762_crystalitem_red>1</guy762_crystalitem_red>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_orange</defName>
+		<label>orange color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Orange</path>
+		<costList>
+		  <guy762_crystalitem_orange>1</guy762_crystalitem_orange>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_yellow</defName>
+		<label>yellow color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Yellow</path>
+		<costList>
+		  <guy762_crystalitem_yellow>1</guy762_crystalitem_yellow>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_white</defName>
+		<label>silver color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_White</path>
+		<costList>
+		  <guy762_crystalitem_white>1</guy762_crystalitem_white>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_green</defName>
+		<label>green color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Green</path>
+		<costList>
+		  <guy762_crystalitem_green>1</guy762_crystalitem_green>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_blue</defName>
+		<label>blue color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Blue</path>
+		<costList>
+		  <guy762_crystalitem_blue>1</guy762_crystalitem_blue>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_purple</defName>
+		<label>violet color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Purple</path>
+		<costList>
+		  <guy762_crystalitem_purple>1</guy762_crystalitem_purple>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_jade</defName>
+		<label>jade color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Jade</path>
+		<costList>
+		  <Jade>1</Jade>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_bronze</defName>
+		<label>bronze color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Bronze</path>
+		<costList>
+		  <guy762_crystalitem_bronze>1</guy762_crystalitem_bronze>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_viridian</defName>
+		<label>viridian color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Viridian</path>
+		<costList>
+		  <guy762_crystalitem_viridian>1</guy762_crystalitem_viridian>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_cyan</defName>
+		<label>cyan color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Cyan</path>
+		<costList>
+		  <guy762_crystalitem_cyan>1</guy762_crystalitem_cyan>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_pink</defName>
+		<label>fuchsia color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Pink</path>
+		<costList>
+		  <guy762_crystalitem_fuchsia>1</guy762_crystalitem_fuchsia>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_turquoise</defName>
+		<label>turquoise color crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Turquoise</path>
+		<costList>
+		  <guy762_crystalitem_turquoise>1</guy762_crystalitem_turquoise>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_cracked</defName>
+		<label>fractured Kyber crystal</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Cracked</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.5</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.5</MeleeAverageAPFactor>
+		<MeleeHitChanceFactor>-0.2</MeleeHitChanceFactor>
+		<MentalBreakThresholdFactor>0.5</MentalBreakThresholdFactor>
+		<costList>
+		  <guy762_crystalitem_cracked>1</guy762_crystalitem_cracked>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_beskar</defName>
+		<label>Pride of Mandalore</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Dark</path>
+		<massFactor>0.2</massFactor>
+		<MeleeAverageAPFactor>0.6</MeleeAverageAPFactor>
+		<PainShockThresholdFactor>0.4</PainShockThresholdFactor>
+		<costList>
+		  <guy762_crystalitem_beskar>1</guy762_crystalitem_beskar>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_heart</defName>
+		<label>Heart of the Guardian</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Heart</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<PsychicSensitivityFactor>0.2</PsychicSensitivityFactor>
+		<costList>
+		  <guy762_crystalitem_heart>1</guy762_crystalitem_heart>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_colorcrystal_mantle</defName>
+		<label>Mantle of the Force</label>
+		<kind>guy762_slot_colorcrystal</kind>
+		<path>Blade_Mantle</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<PsychicEntropyRecoveryRateFactor>0.4</PsychicEntropyRecoveryRateFactor>
+		<statModifiers>
+		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">2</SWPotF_ForcePoints_Recovery>
+		</statModifiers>
+		<PsychicSensitivityFactor>0.4</PsychicSensitivityFactor>
+		<costList>
+		  <guy762_crystalitem_mantle>1</guy762_crystalitem_mantle>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+
+
+
+
+
+
+
+
+	
+	  
+	  <!--focusing crystal-->
+	
+	  <ModularWeapons.ModularPartDef MayRequire="BiomesTeam.BiomesCaverns">
+		<defName>guy762_focuscrystal_BiomeCrystal</defName>
+		<label>cavern crystal</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.1</MeleeDamageMultiplierFactor>
+		<MeleeCooldownMultiplierFactor>0.1</MeleeCooldownMultiplierFactor>
+		<costList>
+		  <BMT_ResourceBlueCrystal>1</BMT_ResourceBlueCrystal>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_adegan</defName>
+		<label>Adegan</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<costList>
+		  <guy762_crystalitem_adegan>1</guy762_crystalitem_adegan>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_rubat</defName>
+		<label>Rubat</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.1</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_rubat>1</guy762_crystalitem_rubat>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_ruusan</defName>
+		<label>Ruusan</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<PsychicSensitivityFactor>0.1</PsychicSensitivityFactor>
+		<costList>
+		  <guy762_crystalitem_ruusan>1</guy762_crystalitem_ruusan>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_velmorite</defName>
+		<label>Velmorite</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeCooldownMultiplierFactor>-0.1</MeleeCooldownMultiplierFactor>
+		<costList>
+		  <guy762_crystalitem_velmorite>1</guy762_crystalitem_velmorite>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <!-- small tier 2 -->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_sigil</defName>
+		<label>Sigil</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_sigil>1</guy762_crystalitem_sigil>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_nextor</defName>
+		<label>Nextor</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_crystalitem_nextor>1</guy762_crystalitem_nextor>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_kasha</defName>
+		<label>Kasha</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<PsychicSensitivityFactor>0.2</PsychicSensitivityFactor>
+		<costList>
+		  <guy762_crystalitem_kasha>1</guy762_crystalitem_kasha>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_eralam</defName>
+		<label>Eralam</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_eralam>1</guy762_crystalitem_eralam>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_damind</defName>
+		<label>Damind</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_damind>1</guy762_crystalitem_damind>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <!-- small tier 3 -->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_sapith</defName>
+		<label>Sapith</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_sapith>1</guy762_crystalitem_sapith>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_opila</defName>
+		<label>Opila</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeAverageAPFactor>0.6</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_crystalitem_opila>1</guy762_crystalitem_opila>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_upari</defName>
+		<label>Upari</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.4</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_upari>1</guy762_crystalitem_upari>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_lorrdian</defName>
+		<label>Lorrdian gemstone</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDodgeChanceFactor>0.2</MeleeDodgeChanceFactor>
+		<BaseDeflectChanceFactor>0.3</BaseDeflectChanceFactor>
+		<costList>
+		  <guy762_crystalitem_lorrdian>1</guy762_crystalitem_lorrdian>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <!-- small tier 4 -->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_ankarres</defName>
+		<label>Ankarres sapphire</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<InjuryHealingFactor>0.2</InjuryHealingFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeCooldownMultiplierFactor>-0.1</MeleeCooldownMultiplierFactor>
+		<statModifiers>
+		  <VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+		</statModifiers>
+		<costList>
+		  <guy762_crystalitem_ankarres>1</guy762_crystalitem_ankarres>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_focuscrystal_kaiburr</defName>
+		<label>Kaiburr</label>
+		<kind>guy762_slot_focuscrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<InjuryHealingFactor>0.3</InjuryHealingFactor>
+		<PainShockThresholdFactor>0.3</PainShockThresholdFactor>
+		<PsychicSensitivityFactor>0.3</PsychicSensitivityFactor>
+		<costList>
+		  <guy762_crystalitem_kaiburr>1</guy762_crystalitem_kaiburr>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  	<!--power crystal-->
+		
+		
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_jade</defName>
+		<label>Jadeite</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<costList>
+		  <Jade>1</Jade>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_luxum</defName>
+		<label>Luxum</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal ion damage.</description>
+		<massFactor>0.4</massFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_ion</def>
+					  <amount>6</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_ion</def>
+					  <amount>6</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_luxum>1</guy762_crystalitem_luxum>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_phond</defName>
+		<label>Phond</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal extra slashing damage.</description>
+		<massFactor>0.4</massFactor>
+		<toolFactors>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>32</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+			  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_crystalitem_phond>1</guy762_crystalitem_phond>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_bondar</defName>
+		<label>Bondar</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to stun enemies.</description>
+		<massFactor>0.4</massFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>Stun</def>
+					  <amount>6</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>Stun</def>
+					  <amount>6</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_crystalitem_bondar>1</guy762_crystalitem_bondar>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+		
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_dragite</defName>
+		<label>Dragite</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal sonic damage.</description>
+		<massFactor>0.4</massFactor>
+		<PainShockThresholdFactor>0.1</PainShockThresholdFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_sonic</def>
+					  <amount>2</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_sonic</def>
+					  <amount>2</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_crystalitem_dragite>1</guy762_crystalitem_dragite>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_jenurax</defName>
+		<label>Jenurax</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<BaseDeflectChanceFactor>0.5</BaseDeflectChanceFactor>
+		<costList>
+		  <guy762_crystalitem_jenurax>1</guy762_crystalitem_jenurax>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <!--large tier 2-->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_kraytpearl</defName>
+		<label>Krayt Dragon Pearl</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_krayt>1</guy762_crystalitem_krayt>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_firkann</defName>
+		<label>Firkann</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal greater ion damage.</description>
+		<massFactor>0.4</massFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_ion</def>
+					  <amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_ion</def>
+					  <amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<MeleeHitChanceFactor>0.2</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_firkann>1</guy762_crystalitem_firkann>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_pontite</defName>
+		<label>Pontite</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal cold damage.</description>
+		<massFactor>0.4</massFactor>
+		<SocialImpactFactor>0.2</SocialImpactFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>Frostbite</def>
+					  <amount>10</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>Frostbite</def>
+					  <amount>10</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_crystalitem_pontite>1</guy762_crystalitem_pontite>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_stygium</defName>
+		<label>Stygium</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.2</massFactor>
+		<MeleeDodgeChanceFactor>0.4</MeleeDodgeChanceFactor>
+		<MeleeCooldownMultiplierFactor>-0.1</MeleeCooldownMultiplierFactor>
+		<MeleeHitChanceFactor>0.1</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_stygium>1</guy762_crystalitem_stygium>
+		</costList>
+		<isRare>true</isRare>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <!-- large tier 3 -->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_ultimapearl</defName>
+		<label>Ultima-pearl</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<MeleeDamageMultiplierFactor>0.2</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<MeleeAverageAPFactor>0.3</MeleeAverageAPFactor>
+		<costList>
+		  <guy762_crystalitem_ultima>1</guy762_crystalitem_ultima>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+		
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_barab</defName>
+		<label>Barab ore ingot</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal fire damage.</description>
+		<massFactor>0.4</massFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>Flame</def>
+					  <amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>Flame</def>
+					  <amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_crystalitem_barab>1</guy762_crystalitem_barab>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_hurrikaine</defName>
+		<label>Hurrikaine</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description>Adds a chance to deal unstoppable damage.</description>
+		<massFactor>0.4</massFactor>
+		<toolFactors>
+			<li>
+				<label>tip</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberStab</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>0.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_unstoppable</def>
+					  <amount>8</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+			  <li>
+				<label>edge</label>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>kotorsound_lightsaber_deflect</soundMeleeHit>
+				<soundMeleeMiss>kotorsound_lightsaber_swing</soundMeleeMiss>
+				<capacities>
+				  <li>guy762_ToolCapacity_SaberSlash</li>
+				</capacities>
+				<!---->
+				<power>26</power>
+				<chanceFactor>1.5</chanceFactor>
+				<cooldownTime>2.5</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+					  <def>guy762_MeleeDamage_unstoppable</def>
+					  <amount>8</amount>
+					</li>
+				</extraMeleeDamages>
+			  </li>
+		</toolFactors>
+		<costList>
+		  <guy762_crystalitem_hurrikaine>1</guy762_crystalitem_hurrikaine>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  <!-- large tier 4 -->
+	  
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_artusian</defName>
+		<label>Artusian</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<PsychicSensitivityFactor>0.6</PsychicSensitivityFactor>
+		<costList>
+		  <guy762_crystalitem_artusian>1</guy762_crystalitem_artusian>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_qixoni</defName>
+		<label>Qixoni</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<massFactor>0.4</massFactor>
+		<PsychicEntropyRecoveryRateFactor>0.1</PsychicEntropyRecoveryRateFactor>
+		<statModifiers>
+		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+		</statModifiers>
+		<MeleeDamageMultiplierFactor>0.5</MeleeDamageMultiplierFactor>
+		<costList>
+		  <guy762_crystalitem_qixoni>1</guy762_crystalitem_qixoni>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  <ModularWeapons.ModularPartDef>
+		<defName>guy762_powercrystal_solari</defName>
+		<label>Solari</label>
+		<kind>guy762_slot_powercrystal</kind>
+		<path>NoVisual</path>
+		<description MayRequire="guy762.Lee.KotORPotF">Deals extra damage to dark-siders (when using Star Wars: Power of the Force).</description> <!--this is done in a patch found in AdditionalMods-->
+		<massFactor>0.4</massFactor>
+		<MeleeDamageMultiplierFactor>0.3</MeleeDamageMultiplierFactor>
+		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
+		<costList>
+		  <guy762_crystalitem_solari>1</guy762_crystalitem_solari>
+		</costList>
+		<isRare>true</isRare>
+		<researchPrerequisites>
+		  <li>guy762_ResearchKotOR_advupgrade</li>
+		</researchPrerequisites>
+	  </ModularWeapons.ModularPartDef>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	 
+</Defs>
