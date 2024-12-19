@@ -3,12 +3,12 @@
 	<modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon_guy762_KotORWeaponsArmor</modIconPath>
 	<packageId>guy762.KotORWeapons</packageId>
 	<author>guy762</author>
-	<description>Adds blasters, lightsabers, vibroblades, grenades, gadgets, armors, and equipment from Star Wars: Knights of the Old Republic and Star Wars: Knights of the Old Republic II - The Sith Lords.\n\nRIMPY USERS DOWNLOAD FROM HERE: https://github.com/guy1762/1.5ZIP_StarWarsKotORWeaponsArmor/tree/main\n\nDOWNLOAD THE FINAL 1.4 VERSION OF THIS MOD HERE: https://github.com/guy1762/SWKotOR-Project-1.4-Final-Build/tree/main</description>
+	<description>Adds blasters, lightsabers, vibroblades, grenades, gadgets, armors, and equipment from Star Wars: Knights of the Old Republic and Star Wars: Knights of the Old Republic II - The Sith Lords. DOWNLOAD THE FINAL 1.4 VERSION OF THIS MOD HERE: https://github.com/guy1762/SWKotOR-Project-1.4-Final-Build/tree/main</description>
 	<supportedVersions>
 		<!--li>1.4</li-->
 		<li>1.5</li>
 	</supportedVersions>
-	<url>https://github.com/guy1762/1.5ZIP_StarWarsKotORWeaponsArmor/tree/main</url>
+	<url>https://github.com/guy1762/1.5-guy762-KotORWeaponsArmor</url>
 	
 	<modDependencies>
 		<li>
