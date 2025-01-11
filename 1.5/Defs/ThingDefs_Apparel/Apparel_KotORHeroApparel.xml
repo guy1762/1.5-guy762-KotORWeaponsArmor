@@ -16,7 +16,7 @@
     </graphicData>
     <statBases>
 	  <MarketValue>762</MarketValue>
-      <MaxHitPoints>80</MaxHitPoints>
+      <MaxHitPoints>150</MaxHitPoints>
       <Mass>0.05</Mass>
 	  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 	  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
