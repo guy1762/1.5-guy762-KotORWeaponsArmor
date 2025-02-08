@@ -614,14 +614,22 @@
 	</tradeTags>
 	
 	<comps>
-	  <li MayRequire="guy762.StarWarsXenotypes" Class="AthenaFramework.CompProperties_GeneLockedEquippable">
-		<blacklistedGenes>
-			<li>guy762_HeadAttachment_keldormask</li>
-			<li>guy762_HeadAttachment_gandmask</li>
-		</blacklistedGenes>
-		<cantReason>Already wearing a mask!</cantReason>
-	  </li>
+	  <!-- <li MayRequire="guy762.StarWarsXenotypes" Class="AthenaFramework.CompProperties_GeneLockedEquippable"> -->
+		<!-- <blacklistedGenes> -->
+			<!-- <li>guy762_HeadAttachment_keldormask</li> -->
+			<!-- <li>guy762_HeadAttachment_gandmask</li> -->
+		<!-- </blacklistedGenes> -->
+		<!-- <cantReason>Already wearing a mask!</cantReason> -->
+	  <!-- </li> -->
 	</comps>
+	<modExtensions>
+	  <li MayRequire="guy762.StarWarsXenotypes" Class="EBSGFramework.EquipRestrictExtension">
+		<forbiddenGenesToEquip>
+            <li>guy762_HeadAttachment_keldormask</li>
+			<li>guy762_HeadAttachment_gandmask</li>
+         </forbiddenGenesToEquip>
+      </li>
+	</modExtensions>
   </ThingDef>
   
   <ThingDef ParentName="guy762_HeadbandBase">
@@ -702,14 +710,22 @@
 	</tradeTags>
 	
 	<comps>
-	  <li MayRequire="guy762.StarWarsXenotypes" Class="AthenaFramework.CompProperties_GeneLockedEquippable">
-		<blacklistedGenes>
-			<li>guy762_HeadAttachment_keldormask</li>
-			<li>guy762_HeadAttachment_gandmask</li>
-		</blacklistedGenes>
-		<cantReason>Already wearing a mask!</cantReason>
-	  </li>
+	  <!-- <li MayRequire="guy762.StarWarsXenotypes" Class="AthenaFramework.CompProperties_GeneLockedEquippable"> -->
+		<!-- <blacklistedGenes> -->
+			<!-- <li>guy762_HeadAttachment_keldormask</li> -->
+			<!-- <li>guy762_HeadAttachment_gandmask</li> -->
+		<!-- </blacklistedGenes> -->
+		<!-- <cantReason>Already wearing a mask!</cantReason> -->
+	  <!-- </li> -->
 	</comps>
+	<modExtensions>
+	  <li MayRequire="guy762.StarWarsXenotypes" Class="EBSGFramework.EquipRestrictExtension">
+		<forbiddenGenesToEquip>
+            <li>guy762_HeadAttachment_keldormask</li>
+			<li>guy762_HeadAttachment_gandmask</li>
+         </forbiddenGenesToEquip>
+      </li>
+	</modExtensions>
   </ThingDef>
   
   

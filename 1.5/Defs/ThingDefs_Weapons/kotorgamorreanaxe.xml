@@ -42,14 +42,21 @@
 			<soundHitBuilding>kotorsound_blade_hithard</soundHitBuilding>
 		  </li>
 		  
-		  <li Class="AthenaFramework.CompProperties_GeneLockedEquippable">
-			<requiredGenes>
-				<li>Robust</li>
-			</requiredGenes>
-			<cantReason>Not strong enough! (Requires "Robust" gene)</cantReason>
-			<dropWithoutRequirements>true</dropWithoutRequirements>
-		  </li>
+		  <!-- <li Class="AthenaFramework.CompProperties_GeneLockedEquippable"> -->
+			<!-- <requiredGenes> -->
+				<!-- <li>Robust</li> -->
+			<!-- </requiredGenes> -->
+			<!-- <cantReason>Not strong enough! (Requires "Robust" gene)</cantReason> -->
+			<!-- <dropWithoutRequirements>true</dropWithoutRequirements> -->
+		  <!-- </li> -->
 		</comps>
+		<modExtensions>
+		  <li Class="EBSGFramework.EquipRestrictExtension">
+			<requireOneOfGenesToEquip>
+				<li>Robust</li>
+			</requireOneOfGenesToEquip>
+		  </li>
+		</modExtensions>
 		
 		<equippedStatOffsets>
 		  <MeleeHitChance>-0.5</MeleeHitChance>

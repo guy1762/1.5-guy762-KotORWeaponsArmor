@@ -539,7 +539,7 @@
 		</comps>
 	</ThingDef>
 	
-	<ThingDef ParentName="KotORRangedModdable_OffHand" MayRequire="smartkar.athenaframework">
+	<ThingDef ParentName="KotORRangedModdable_OffHand">
 		<defName>guy762_hvypistol_nadd</defName>
 		<label>Freedon Nadd's Blaster</label>
 		<description>A vile weapon that once belonged to Freedon Nadd, this blaster has killed more Jedi then any lightsaber.</description>
@@ -624,6 +624,19 @@
 				</partKinds>
 			</li>
 		</comps>
+		
+		<modExtensions>
+            <li Class="EBSGFramework.DamageModifyingStatsExtension">
+                <incomingAttackerFactors> 
+                    <li>PsychicSensitivity</li>
+                </incomingAttackerFactors>
+
+                <outTargetDivReq>Humanlike</outTargetDivReq> 
+                <!--Non-humanlikes generally don't have psychic sensitivity, so restricting this avoids making the weapon too strong-->
+                <maxOutRemaining>30</maxOutRemaining> 
+                <!--Because PsychicSensitivity can reach 0, a maximum needs to be set to avoid extreme damage amounts-->
+            </li>
+        </modExtensions>
 	</ThingDef>
 	
 	

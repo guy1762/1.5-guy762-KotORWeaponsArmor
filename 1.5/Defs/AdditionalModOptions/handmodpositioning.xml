@@ -878,7 +878,7 @@
                  <li>guy762_slugrifle_verpine</li> <!-- Verpine Shatter Gun -->
               </ThingTargets>
           </li>
-		  <li MayRequire="smartkar.athenaframework">
+		  <li>
               <MainHand>(-0.200, 0.100, -0.150)</MainHand>
               <ThingTargets>
                  <li>guy762_mininglaser</li> <!-- Mining Laser -->

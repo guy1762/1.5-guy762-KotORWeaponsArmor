@@ -36,7 +36,7 @@
 		</tradeTags>
 		<verbs>
 			<li>
-			  <verbClass>AthenaFramework.Verb_ShootRunningBeam</verbClass>
+			  <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <warmupTime>1.25</warmupTime>
 			  <range>13</range>

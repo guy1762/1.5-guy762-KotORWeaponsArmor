@@ -40,7 +40,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -140,7 +140,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -228,7 +228,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -319,7 +319,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -390,7 +390,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -452,7 +452,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -530,7 +530,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -613,7 +613,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -692,7 +692,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -778,7 +778,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -814,7 +814,7 @@
 				<NegotiationAbility>0.3</NegotiationAbility>
 				<TradePriceImprovement>0.3</TradePriceImprovement>
 				
-				<Athena_SkillLoss>-0.3</Athena_SkillLoss>
+				<EBSG_SkillLossRate>-0.3</EBSG_SkillLossRate>
 				<ResearchSpeed>0.3</ResearchSpeed>
 				<GlobalLearningFactor>0.3</GlobalLearningFactor>
 				<ReadingSpeed>0.3</ReadingSpeed>
@@ -887,7 +887,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -951,7 +951,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>

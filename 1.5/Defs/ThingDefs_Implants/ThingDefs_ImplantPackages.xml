@@ -37,7 +37,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -109,7 +109,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -198,7 +198,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -293,7 +293,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -377,7 +377,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -446,7 +446,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -524,7 +524,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -603,7 +603,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -678,7 +678,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -762,7 +762,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -796,7 +796,7 @@
 				<NegotiationAbility>0.1</NegotiationAbility>
 				<TradePriceImprovement>0.1</TradePriceImprovement>
 				
-				<Athena_SkillLoss>-0.1</Athena_SkillLoss>
+				<EBSG_SkillLossRate>-0.1</EBSG_SkillLossRate>
 				<ResearchSpeed>0.1</ResearchSpeed>
 				<GlobalLearningFactor>0.1</GlobalLearningFactor>
 				<ReadingSpeed>0.1</ReadingSpeed>
@@ -877,7 +877,7 @@
 		</tradeTags>
 		
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>
@@ -906,7 +906,7 @@
 		<stages>
 		  <li>
 			<statOffsets>
-				<Athena_SkillLoss>-0.5</Athena_SkillLoss>
+				<EBSG_SkillLossRate>-0.5</EBSG_SkillLossRate>
 				
 				<ResearchSpeed>0.1</ResearchSpeed>
 				<GlobalLearningFactor>0.1</GlobalLearningFactor>
@@ -952,7 +952,7 @@
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AthenaFramework.CompProperties_UseEffectHediffModule">
+			<li Class="EBSGFramework.CompProperties_UseEffectHediffModule">
 				<ejectable>true</ejectable>
 				
 				<installSound>kotorsound_lockpick</installSound>

@@ -29,7 +29,7 @@
       </li>
 	  <li Class="HediffCompProperties_RemoveIfApparelDropped" />
 	  <li Class="HediffCompProperties_DisappearsOnDeath"/>
-	  <li Class="AthenaFramework.HediffCompProperties_DisableOnDamage">
+	  <li MayRequire="smartkar.athenaframework" Class="AthenaFramework.HediffCompProperties_DisableOnDamage">
 		<minDamage>0.1</minDamage>
 	  </li>
     </comps>

@@ -8,7 +8,7 @@
     <labelNoun>a medium implant dock</labelNoun>
     <description>An installed medium implant dock. This dock can install the following implant upgrade types:\n\n- Packages\n\n- Devices\n\n- Systems</description>
     <descriptionHyperlinks><ThingDef>guy762_ImplantDock_II</ThingDef></descriptionHyperlinks>
-	<hediffClass>AthenaFramework.Hediff_ModularImplant</hediffClass>
+	<hediffClass>EBSGFramework.Hediff_ModularImplant</hediffClass>
 	<tags><li>guy762_ModularImplantDock</li></tags>
     <spawnThingOnRemoved>guy762_ImplantDock_II</spawnThingOnRemoved>
     <woundAnchorRange>0</woundAnchorRange>
@@ -41,7 +41,7 @@
         <workerClass>CosmeticHediff_v15.PawnRenderNodeWorker_CHHead</workerClass>
         <frontRow>false</frontRow>
       </li-->
-	  <li Class="AthenaFramework.HediffCompProperties_Modular">
+	  <li Class="EBSGFramework.HediffCompProperties_Modular">
 		<slots>
 			<li>
 				<slotID>guy762_ImplantSlot_Pkg</slotID>

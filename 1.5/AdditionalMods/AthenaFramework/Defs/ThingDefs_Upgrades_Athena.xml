@@ -13,7 +13,7 @@
 			<description>Fire an energy beam that can ignite targets.</description>
 			<iconPath>UI/Baragwin_Thermal_Beam</iconPath>
 			<commandIcon>UI/Baragwin_Thermal_Beam</commandIcon>
-			<verbClass>AthenaFramework.Verb_ShootRunningBeam</verbClass>
+			<verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <warmupTime>5</warmupTime>
 			  <range>25</range>
