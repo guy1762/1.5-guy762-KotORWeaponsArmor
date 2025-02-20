@@ -191,6 +191,7 @@
 		<li>OR_jediguardian</li>
 		<li>SaV_jediexilesaber</li>
 		<li>KotORLightsaber_anysingle</li>
+		<li>KotORLightsaber_bluesingle</li>
 	</weaponTags>
     <comps>
 	  <li Class="ModularWeapons.CompProperties_ModularParts">

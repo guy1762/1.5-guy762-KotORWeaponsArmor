@@ -21,7 +21,7 @@
       <MarketValue>140</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -81,7 +81,7 @@
       <MarketValue>100</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -141,7 +141,7 @@
       <MarketValue>350</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -202,7 +202,7 @@
       <MarketValue>700</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -267,7 +267,7 @@
       <MarketValue>980</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -326,7 +326,7 @@
       <MarketValue>1680</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -392,7 +392,7 @@
       <MarketValue>2240</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -461,7 +461,7 @@
       <MarketValue>1120</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -524,7 +524,7 @@
       <MarketValue>1400</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
@@ -595,7 +595,7 @@
       <MarketValue>5000</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
-	<stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay>
+	<!--stackLimit>10</stackLimit><drawGUIOverlay>true</drawGUIOverlay-->
     <apparel>
       <bodyPartGroups>
         <li>Arms</li>
