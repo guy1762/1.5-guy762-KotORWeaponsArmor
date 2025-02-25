@@ -47,8 +47,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -147,8 +147,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -235,8 +235,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -326,8 +326,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -397,8 +397,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -459,8 +459,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -537,8 +537,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -620,8 +620,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -699,8 +699,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -785,8 +785,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -894,8 +894,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>
@@ -958,8 +958,8 @@
 				<ejectSound>kotorsound_lockpick</ejectSound>
 				<requiredCapacity>1</requiredCapacity>
 				<slotIDs>
-					<li>guy762_ImplantSlot_Pkg</li>
-					<li>guy762_ImplantSlot_Imp</li>
+					<!-- <li>guy762_ImplantSlot_Pkg</li> -->
+					<!-- <li>guy762_ImplantSlot_Imp</li> -->
 					<li>guy762_ImplantSlot_Sys</li>
 				</slotIDs>
 				<hediffs>

@@ -70,6 +70,9 @@
 		  </li>
 		  <li Class="CompProperties_Breakdownable"/>
 		</comps>
+		
+		<minifiedDef>MinifiedThing</minifiedDef>
+		
 		<placeWorkers>
 		  <li>PlaceWorker_ShowFacilitiesConnections</li>
 		  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
