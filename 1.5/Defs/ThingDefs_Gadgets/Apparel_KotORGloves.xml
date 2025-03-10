@@ -583,6 +583,7 @@
 		<li>KotORGloves_tech</li>
 		<li>KotOREquipment_tech</li>
 		<li>KotORUtility_engi</li>
+		<li>KotORUtility_engi_novisor</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -684,6 +685,7 @@
 	  <tags>
 		<li>KotORGloves_rare</li>
 		<li>KotORUtility_engi</li>
+		<li>KotORUtility_engi_novisor</li>
 	  </tags>
     </apparel>
 	<tradeTags>
