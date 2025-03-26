@@ -332,7 +332,7 @@
 				<range>23</range>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>
-				<soundCast>kotorsound_pp7goldeneye</soundCast>
+				<soundCast>kotorsound_silencedblaster</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>

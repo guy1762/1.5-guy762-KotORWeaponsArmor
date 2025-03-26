@@ -43,6 +43,9 @@
 				<li>KotORAccessory_trooper_strapsonly</li>
 				<li>KotORAccessory_trooper_withponcho</li>
 				<li>KotORAccessory_trooper_poncho_knife</li>
+				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
+				<li>SWWarlordsAccessory_scumtrooper</li>
+				<li>SWWarlordsAccessory_trooper</li>
 				<li>SaV_wookiee</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/suspenders_simple/Apparel</wornGraphicPath>
@@ -313,6 +316,8 @@
 				<li>KotORAccessory_trooper_poncho_knife</li>
 				<li>KotORAccessory_bandolier</li>
 				<li>KotORAccessory_lightdiagonalonly</li>
+				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
+				<li>SWWarlordsAccessory_scumtrooper</li>
 				<li>SaV_wookiee</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/bandolier_double/Apparel</wornGraphicPath>
@@ -601,6 +606,8 @@
 				<li>KotORAccessory_civilian</li>
 				<li>KotORAccessory_richcivilian</li>
 				<li>KotORAccessory_lightdiagonalonly</li>
+				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
+				<li>SWWarlordsAccessory_scumtrooper</li>
 				<li>SaV_wookiee</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/bandolier_traveler/Apparel</wornGraphicPath>
@@ -930,6 +937,7 @@
 				<li>KotORAccessory_trooper_poncho_knife</li>
 				<!--li>KotORAccessory_trooper</li-->
 				<li>KotORAccessory_civilian</li>
+				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
 				<li>KotORClothing_civilian_hooded</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/poncho/Apparel</wornGraphicPath>
