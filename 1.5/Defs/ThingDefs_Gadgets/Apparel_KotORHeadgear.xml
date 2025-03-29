@@ -50,7 +50,7 @@
 	</tradeTags>
   </ThingDef>
   
-  <ThingDef ParentName="guy762_HeadbandBase">
+  <ThingDef ParentName="guy762_HeadbandCraftableNoQualityBase">
     <defName>guy762_Headband_nerualband</defName>
     <label>neural band</label>
     <description>Developed after the Exar Kun war, this item bolsters the willpower of the user by electrically reinforcing established mental patterns. Republic troops called it "Little Shocky".</description>
@@ -116,7 +116,7 @@
 	</tradeTags>
   </ThingDef>
   
-  <ThingDef ParentName="guy762_HeadbandBase">
+  <ThingDef ParentName="guy762_HeadbandCraftableNoQualityBase">
     <defName>guy762_Headband_lightscan</defName>
     <label>light-scan goggles</label>
     <description>These are invaluable tools that increase visual acuity by analyzing light on several frequencies above those of normal sight.</description>
@@ -318,7 +318,7 @@
 	</tradeTags>
   </ThingDef>
   
-  <ThingDef ParentName="guy762_HeadbandBase">
+  <ThingDef ParentName="guy762_HeadbandCraftableNoQualityBase">
     <defName>guy762_Headband_exchange</defName>
     <label>Exchange visor</label>
     <description>These visors hone an Exchange agent's senses, making them virtually impossible to catch unaware. The enhanced awareness also increases the agent's effectiveness in combat and in setting delicate, complex explosives.</description>
@@ -544,7 +544,7 @@
   
   
   
-  <ThingDef ParentName="guy762_HeadbandBase">
+  <ThingDef ParentName="guy762_HeadbandCraftableNoQualityBase">
     <defName>guy762_Headband_breathmask</defName>
     <label>breath mask</label>
     <description>This is standard issue gear for Republic forces and most professional soldiers, protecting against a variety of gas-based attacks.</description>
@@ -632,7 +632,7 @@
 	</modExtensions>
   </ThingDef>
   
-  <ThingDef ParentName="guy762_HeadbandBase">
+  <ThingDef ParentName="guy762_HeadbandCraftableNoQualityBase">
     <defName>guy762_Headband_rebreathermask</defName>
     <label>rebreather mask</label>
     <description>A solid improvement of the standard Breath Mask, the Rebreather also adds vigor-enhancing airborne stimulants to the regulated oxygen stream.</description>
