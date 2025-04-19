@@ -54,7 +54,7 @@
 			<li>CZ_trooper</li>
 			<li>KotORRebel_trooper</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_basic</li>
 			<li>guy762TT_KotORGeneric_CivLegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -150,7 +150,7 @@
 			<li>SE_anyexclusiveranged</li>
 			<li>KotORRebel_commando</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -237,7 +237,7 @@
 			<li>SaV_krathranged</li>
 			<li>KotORRebel_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
@@ -337,7 +337,7 @@
 			<li>OR_commando</li>
 			<li>OR_saboteur</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORElite</li>
 		</tradeTags>
@@ -418,7 +418,7 @@
 			<li>MNC_champion</li>
 			<li>SaV_bountyhunter_star</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -489,7 +489,7 @@
 			<li>SaV_trandoshan</li>
 			<li>SaV_trando_slaver</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<verbs>
@@ -556,7 +556,7 @@
 			<li>KotORRanged_legendary</li>
 			<li>SaV_zabrakcaptain</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<relicChance>3</relicChance>
@@ -632,7 +632,7 @@
 			<li>KotORRanged_legendary</li>
 			<li>SaV_zabrakcaptain</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<relicChance>3</relicChance>

@@ -46,7 +46,7 @@
 			<li>MNC_champion</li>
 			<li>SaV_trando_veteran</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_Wookiee</li>
 			<li>guy762TT_KotORGeneric_exotic</li>
 		</tradeTags>
@@ -161,7 +161,7 @@
 			<li>SaV_trando_veteran</li>
 			<li>SaV_kaleeshranged</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_Wookiee</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -264,7 +264,7 @@
 			<li>SaV_bountyhunter_hvy</li>
 			<li>HC_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 			<li>guy762TT_KotORWeapon_czerka</li>
@@ -375,7 +375,7 @@
 			<li>SaV_bountyhunter_star</li>
 			<li>SaV_trando_veteran</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_Wookiee</li>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
@@ -518,7 +518,7 @@
 		<weaponTags Inherit="False">
 			<li>KotORRanged_legendary</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORCharacterItem</li>
 		</tradeTags>
 		<relicChance>3</relicChance>

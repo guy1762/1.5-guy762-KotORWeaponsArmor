@@ -332,7 +332,7 @@
 	<weaponTags Inherit="False">
 		<li>KotORMelee_legendary</li>
 	</weaponTags>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORLegendary</li>
 	</tradeTags>
 	<relicChance>5</relicChance>

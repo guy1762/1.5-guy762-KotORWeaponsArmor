@@ -56,7 +56,7 @@
 			<li>KotORWeapon_civhunter</li>
 			<li>KotORRebel_commando</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_basic</li>
 			<li>guy762TT_KotORGeneric_CivLegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -148,7 +148,7 @@
 			<li>PM_veteran</li>
 			<li>KotORRebel_cop</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>
@@ -252,7 +252,7 @@
 			<li>SaV_assassin</li>
 			<li>EXC_assassin</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
@@ -376,7 +376,7 @@
 			<li>SaV_bountyhunter_mid</li>
 			<li>KotORRebel_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_MNCWeapons</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
@@ -463,7 +463,7 @@
 			<li>PM_veteran</li>
 			<li>KotORRebel_commando</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
@@ -544,7 +544,7 @@
 			<li>KotORRanged_strong</li>
 			<li>SaV_heavy</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -616,7 +616,7 @@
 			<li>SaV_trando_veteran</li>
 			<li>SaV_gangboss</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -705,7 +705,7 @@
 			<li>MNC_champion</li>
 			<li>SaV_bountyhunter_star</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORLegendary</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -787,7 +787,7 @@
 		<weaponTags Inherit="False">
 			<li>MNC_champion</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
@@ -887,7 +887,7 @@
 			<li>KotORRanged_legendary</li>
 			<li>SaV_zabrakcaptain</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<relicChance>3</relicChance>

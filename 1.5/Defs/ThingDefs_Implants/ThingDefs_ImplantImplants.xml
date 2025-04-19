@@ -164,7 +164,7 @@
 				<guy762_GrenadeDamage_energy>0.9</guy762_GrenadeDamage_energy>
 				<guy762_GrenadeDamage_thermaldet>0.9</guy762_GrenadeDamage_thermaldet>
 				<Beam MayRequire="Ludeon.RimWorld.Biotech">0.9</Beam>
-				<guy762_RangedDamage_concussion>0.9</guy762_RangedDamage_concussion>
+				<guy762_RangedDamage_KOstun>0.9</guy762_RangedDamage_KOstun>
 			</damageFactors>
 		  </li>
 		</stages>

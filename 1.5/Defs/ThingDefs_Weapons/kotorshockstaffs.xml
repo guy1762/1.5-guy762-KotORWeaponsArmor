@@ -107,7 +107,7 @@
 			<li>SE_redguardmelee</li>
 			<li>CZ_enforcer</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORGeneric_rare</li>
 			<li>guy762TT_KotORGeneric_exotic</li>
@@ -216,7 +216,7 @@
 			<li>KotORMelee_strong</li>
 			<li>SaV_wookieebrawler</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -316,7 +316,7 @@
 			<li>MNC_champion</li>
 			<li>MNC_jedihunter</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_MNCWeapons</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -415,7 +415,7 @@
 		<weaponTags Inherit="False">
 			<li>SaV_gand</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -517,7 +517,7 @@
 			<li>SaV_geonosianmelee</li>
 			<li>SaV_hanharr</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>

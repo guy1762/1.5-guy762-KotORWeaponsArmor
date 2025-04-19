@@ -50,7 +50,7 @@
 		</defaultParts>
 	  </li>
     </comps>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
 	</tradeTags>
 	<notifyMapRemoved>true</notifyMapRemoved>
@@ -72,7 +72,7 @@
 	<weaponTags Inherit="False">
 		<li>SE_malak</li>
 	</weaponTags>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
 	</tradeTags>
 	<statBases>
@@ -167,7 +167,7 @@
 	<weaponTags Inherit="False">
 		<li>SE_nihilus</li>
 	</weaponTags>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
 	</tradeTags>
 	<statBases>
@@ -222,7 +222,7 @@
 	<weaponTags Inherit="False">
 		<li>SE_sion</li>
 	</weaponTags>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
 	</tradeTags>
 	<statBases>
@@ -280,7 +280,7 @@
 	<weaponTags Inherit="False">
 		<li>OR_exile</li>
 	</weaponTags>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
 	</tradeTags>
 	<statBases>

@@ -48,7 +48,7 @@
 			<li>CZ_officer</li>
 			<li>SE_raider</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_rare</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORGeneric_disruptor</li>
@@ -143,7 +143,7 @@
 			<li>EXC_hitman</li>
 			<li>SaV_roguetrader</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -241,7 +241,7 @@
 		<weaponTags Inherit="False">
 			<li>SaV_luxa</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORCharacterItem</li>
 		</tradeTags>
 		<verbs>
@@ -354,7 +354,7 @@
 			<li>SaV_roguetrader</li>
 			<li>KotORRebel_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_MNCWeapons</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -448,7 +448,7 @@
 			<li>SaV_bountyhunter_star</li>
 			<li>SaV_crimelord</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORLegendary</li>
 			<li>guy762TT_MNCWeapons</li>

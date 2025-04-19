@@ -51,7 +51,7 @@
 			<li>SaV_WarDroid_mid</li>
 			<li>CZ_trooper</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -145,7 +145,7 @@
 			<li>KotORRebel_trooper</li>
 			<li>KotORRebel_commando</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -229,7 +229,7 @@
 			<li>SaV_gangboss</li>
 			<li>KotORRebel_heavy</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -314,7 +314,7 @@
 			<li>SaV_gangboss</li>
 			<li>KotORRebel_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -398,7 +398,7 @@
 			<li>SaV_bountyhunter_star</li>
 			<li>SE_redguard</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_Baragwin</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -489,7 +489,7 @@
 			<li>SaV_bountyhunter_star</li>
 			<li>KotORRebel_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -582,7 +582,7 @@
 		<weaponTags Inherit="False">
 			<li>MNC_mandalore</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<verbs>

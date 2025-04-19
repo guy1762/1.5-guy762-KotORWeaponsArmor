@@ -55,7 +55,7 @@
 			<li>KotORRebel_trooper</li>
 			<li>KotORRebel_cop</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_basic</li>
 			<li>guy762TT_KotORGeneric_CivLegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -142,7 +142,7 @@
 			<li>OR_fleettrooper</li>
 			<li>PM_veteran</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>
@@ -243,7 +243,7 @@
 			<li>SaV_roguetrader</li>
 			<li>SaV_bountyhunter</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_MNCWeapons</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
@@ -319,7 +319,7 @@
 			<li>SaV_assassin</li>
 			<li>EXC_hitman</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -406,7 +406,7 @@
 			<li>SaV_roguetrader</li>
 			<li>SaV_bountyhunter</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
@@ -481,7 +481,7 @@
 			<li>SaV_krathranged</li>
 			<li>MNC_champion</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -556,7 +556,7 @@
 			<li>SaV_bountyhunter_mid</li>
 			<li>MNC_champion</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -658,7 +658,7 @@
 			<li>KotORRanged_legendary</li>
 			<li>OR_Admiral</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORCharacterItem</li>
 		</tradeTags>
 		<relicChance>2</relicChance>
@@ -734,7 +734,7 @@
 			<li>KotORRanged_legendary</li>
 			<li>MNC_supremecommander</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<relicChance>3</relicChance>

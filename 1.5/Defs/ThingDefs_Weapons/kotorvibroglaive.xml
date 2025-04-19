@@ -89,7 +89,7 @@
 			<li>SaV_wookieebrawler</li>
 			<li>SaV_moncal</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORGeneric_rare</li>
 			<li>guy762TT_KotORGeneric_exotic</li>
@@ -181,7 +181,7 @@
 			<li>SaV_krathmelee</li>
 			<li>SaV_kaleeshmelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORAntique</li>
@@ -267,7 +267,7 @@
 			<li>SaV_echaniheavy</li>
 			<li>MNC_champion</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>

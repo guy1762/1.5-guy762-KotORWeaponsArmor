@@ -22,7 +22,7 @@
 	 <weaponTags inherit="False">
       <li>SandClub</li>
     </weaponTags>
-	<tradeTags Inherit="False">
+	<tradeTags>
 		<li>guy762TT_KotORMelee</li>
 		<li>guy762TT_KotORAntique</li>
 		<li>guy762TT_KotORWeapon_exotic</li>

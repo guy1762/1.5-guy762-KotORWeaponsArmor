@@ -103,7 +103,7 @@
 		<weaponTags Inherit="False">
 			<li>HC_gamorreanaxe</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
 		<thingSetMakerTags>

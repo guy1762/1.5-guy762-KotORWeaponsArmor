@@ -47,7 +47,7 @@
 			<li>SpacerGun</li>
 			<li>HC_soldier</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_exotic</li>
 			<li>guy762TT_KotORRanged</li>
@@ -132,7 +132,7 @@
 			<li>MNC_sapper</li>
 			<li>SaV_bothanspy</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -216,7 +216,7 @@
 			<li>SaV_roguetrader</li>
 			<li>SaV_moncal</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -305,7 +305,7 @@
 			<li>SaV_trando_slaver</li>
 			<li>SaV_kaleeshranged</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -386,7 +386,7 @@
 			<li>SaV_gangboss</li>
 			<li>SaV_kaleeshranged</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 		</tradeTags>
 		<verbs>

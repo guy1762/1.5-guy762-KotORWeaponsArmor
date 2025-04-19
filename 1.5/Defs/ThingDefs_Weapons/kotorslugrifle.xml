@@ -55,7 +55,7 @@
 			<li>KotORWeapon_civhunter</li>
 			<li>KotORRebel_trooper</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_basic</li>
 			<li>guy762TT_KotORGeneric_CivLegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -153,7 +153,7 @@
 			<li>SaV_krathranged</li>
 			<li>KotORRebel_cop</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
@@ -237,7 +237,7 @@
 			<li>KotORRanged_mid</li>
 			<li>SaV_kaleeshranged</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -344,7 +344,7 @@
 			<li>KotORRanged_mid</li>
 			<li>SaV_tusken</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 		</tradeTags>
@@ -451,7 +451,7 @@
 			<li>KotORRanged_mid</li>
 			<li>SaV_tusken</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORAntique</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -550,7 +550,7 @@
 			<li>SaV_elite</li>
 			<li>SaV_trando_veteran</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORLegendary</li>
 			<li>guy762TT_KotORWeapon_exotic</li>

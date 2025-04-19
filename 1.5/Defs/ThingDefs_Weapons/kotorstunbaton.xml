@@ -93,7 +93,7 @@
 			<li>SaV_trando_slaver</li>
 			<li>KotORRebel_copmelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORGeneric_basic</li>
 			<li>guy762TT_KotORGeneric_CivLegal</li>
@@ -187,7 +187,7 @@
 			<li>SaV_brawler</li>
 			<li>SE_slasher</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>
@@ -273,7 +273,7 @@
 			<li>KotORMelee_mid</li>
 			<li>SaV_gand</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -371,7 +371,7 @@
 			<li>SaV_bothanspy</li>
 			<li>KotORRebel_elitemelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -468,7 +468,7 @@
 			<li>KotORMelee_rakatan</li>
 			<li>SE_redguardmelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>

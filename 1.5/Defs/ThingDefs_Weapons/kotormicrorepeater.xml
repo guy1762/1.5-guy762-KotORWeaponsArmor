@@ -49,7 +49,7 @@
 			<li>KotORRebel_commando</li>
 			<li>KotORRebel_elite</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_rare</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -137,7 +137,7 @@
 			<li>SaV_JKmerc</li>
 			<li>SaV_smuggler</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -233,7 +233,7 @@
 		<weaponTags>
 			<li>MNC_trooper</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_MNCWeapons</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
@@ -318,7 +318,7 @@
 			<li>SaV_trandoshan</li>
 			<li>SaV_trando_merc</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -407,7 +407,7 @@
 		<weaponTags>
 			<li>SaV_mira</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORCharacterItem</li>
 		</tradeTags>
 		<verbs>

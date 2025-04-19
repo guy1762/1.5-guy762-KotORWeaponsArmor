@@ -87,7 +87,7 @@
 			<li>KotORRebel_copmelee</li>
 			<li>SaV_trando_slaver</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORGeneric_basic</li>
 			<li>guy762TT_KotORGeneric_CivLegal</li>
@@ -173,7 +173,7 @@
 			<li>SaV_wookieebrawler</li>
 			<li>HC_enforcer</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>
@@ -259,7 +259,7 @@
 			<li>SE_slasher</li>
 			<li>KotORRebel_elitemelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORAntique</li>
@@ -356,7 +356,7 @@
 			<li>SaV_elite</li>
 			<li>SaV_echani</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>
@@ -444,7 +444,7 @@
 		<weaponTags Inherit="False">
 			<li>SaV_nagai</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -546,7 +546,7 @@
 			<li>KotORMelee_legendary</li>
 			<li>SaV_mission</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORCharacterItem</li>
 		</tradeTags>
 		<comps>
@@ -649,7 +649,7 @@
 		<weaponTags Inherit="False">
 			<li>KotORMelee_legendary</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<comps>

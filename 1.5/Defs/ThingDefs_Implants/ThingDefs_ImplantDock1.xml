@@ -99,6 +99,7 @@
 	</thingSetMakerTags>
 	<tradeTags Inherit="False">
 	  <li>guy762TT_implants_basic</li>
+	  <li>guy762TT_AllItemsSellable</li>
 	</tradeTags>
   </ThingDef>
 

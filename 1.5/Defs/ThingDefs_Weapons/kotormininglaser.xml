@@ -30,7 +30,7 @@
 			<li>KotORRanged_offhand</li>
 			<li>KotORRanged_mininglaser</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>

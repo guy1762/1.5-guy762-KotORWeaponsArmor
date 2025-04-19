@@ -81,7 +81,7 @@
 			<li>SaV_mercslasher</li>
 			<li>SaV_wookieebrawler</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_exotic</li>
@@ -152,7 +152,7 @@
 			<li>SaV_wookieebrawler</li>
 			<li>SaV_kaleeshmelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -235,7 +235,7 @@
 			<li>SE_elitemelee</li>
 			<li>SaV_hanharr</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORWeapon_exotic</li>

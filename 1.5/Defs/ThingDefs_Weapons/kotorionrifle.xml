@@ -50,7 +50,7 @@
 			<li>OR_heavy</li>
 			<li>KotORRebel_heavy</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -142,7 +142,7 @@
 			<li>SaV_jawaheavy</li>
 			<li>SE_engineer</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -219,7 +219,7 @@
 			<li>SE_heavy</li>
 			<li>SaV_bothanspy</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -305,7 +305,7 @@
 			<li>KotORRanged_ion</li>
 			<li>OR_commando</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -404,7 +404,7 @@
 			<li>SaV_crimelord</li>
 			<li>SaV_bountyhunter_star</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_Baragwin</li>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>

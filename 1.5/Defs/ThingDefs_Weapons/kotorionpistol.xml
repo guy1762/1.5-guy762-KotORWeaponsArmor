@@ -50,7 +50,7 @@
 			<li>PM_spacer</li>
 			<li>SE_engineer</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORGeneric_adv</li>
 			<li>guy762TT_KotORGeneric_illegal</li>
 			<li>guy762TT_KotORRanged</li>
@@ -137,7 +137,7 @@
 			<li>SaV_jawaheavy</li>
 			<li>SaV_roguetrader</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_illegal</li>
 		</tradeTags>
@@ -225,7 +225,7 @@
 			<li>KotORRanged_rareoffhand</li>
 			<li>OR_officer</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORElite</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -310,7 +310,7 @@
 		<weaponTags>
 			<li>KotORRanged_offhand</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORRanged</li>
 			<li>guy762TT_KotORWeapon_CivLegal</li>
 		</tradeTags>

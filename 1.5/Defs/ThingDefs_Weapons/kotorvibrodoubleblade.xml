@@ -90,7 +90,7 @@
 			<li>SaV_wookieebrawler</li>
 			<li>MNC_marauder</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORGeneric_rare</li>
 			<li>guy762TT_KotORGeneric_exotic</li>
@@ -180,7 +180,7 @@
 			<li>SE_elitemelee</li>
 			<li>SE_redguardmelee</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_SEWeapons</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
@@ -265,7 +265,7 @@
 			<li>SaV_echaniheavy</li>
 			<li>MNC_champion</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -364,7 +364,7 @@
 			<li>MNC_champion</li>
 			<li>SaV_hanharr</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORMelee</li>
 			<li>guy762TT_KotORWeapon_exotic</li>
 		</tradeTags>
@@ -461,8 +461,9 @@
 		</tools>
 		<weaponTags Inherit="False">
 			<li>KotORMelee_legendary</li>
+			<li>KotORMelee_yusanisbrand</li>
 		</weaponTags>
-		<tradeTags Inherit="False">
+		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
 		<comps>
