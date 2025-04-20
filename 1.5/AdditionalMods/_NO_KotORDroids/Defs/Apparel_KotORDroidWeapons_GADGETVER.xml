@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
+  <ThingDef Name="guy762_CyborgWeaponBase" ParentName="guy762_DroidWeaponBase" Abstract="True">
+	<modExtensions>
+		<li MayRequire="EBSG.Framework" Class="EBSGFramework.EquipRestrictExtension">
+			<requireOneOfHediffsToEquip>
+                <li>BionicArm</li>
+                <li>ArchotechArm</li>
+            </requireOneOfHediffsToEquip>
+        </li>
+	</modExtensions>
+  </ThingDef>
+  
+  
+  
   
   <ThingDef ParentName="guy762_DroidWeaponCraftableBase">
     <defName>guy762_DroidWeapon_trishot</defName>
@@ -84,18 +97,6 @@
 				</li>
 			</verbProps>
 		</li>
-		<li MayRequire="EBSG.Framework" Class="EBSGFramework.EquipRestrictExtension">
-			<requireOneOfHediffsToEquip>
-                <li>BionicArm</li>
-                <li>ArchotechArm</li>
-            </requireOneOfHediffsToEquip>
-        </li>
-		<!-- <li MayRequire="smartkar.athenaframework" Class="AthenaFramework.CompProperties_PrerequisiteEquippable"> -->
-			<!-- <prerequisites> -->
-				<!-- <li>BionicArm</li> -->
-			<!-- </prerequisites> -->
-			<!-- <cantReason>No bionic part to attach to!</cantReason> -->
-		  <!-- </li> -->
 	</comps>
   </ThingDef>
   
@@ -165,12 +166,6 @@
 				</li>
 			</verbProps>
 		</li>
-		<li MayRequire="EBSG.Framework" Class="EBSGFramework.EquipRestrictExtension">
-			<requireOneOfHediffsToEquip>
-                <li>BionicArm</li>
-                <li>ArchotechArm</li>
-            </requireOneOfHediffsToEquip>
-        </li>
 	</comps>
 	<thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -278,12 +273,6 @@
 			<explosiveDamageType>Flame</explosiveDamageType>
 			<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
 		</li>
-		<li MayRequire="EBSG.Framework" Class="EBSGFramework.EquipRestrictExtension">
-			<requireOneOfHediffsToEquip>
-                <li>BionicArm</li>
-                <li>ArchotechArm</li>
-            </requireOneOfHediffsToEquip>
-        </li>
 	</comps>
 	<thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
@@ -386,12 +375,6 @@
 			<explosiveDamageType>Bomb</explosiveDamageType>
 			<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
 		</li>
-		<li MayRequire="EBSG.Framework" Class="EBSGFramework.EquipRestrictExtension">
-			<requireOneOfHediffsToEquip>
-                <li>BionicArm</li>
-                <li>ArchotechArm</li>
-            </requireOneOfHediffsToEquip>
-        </li>
 	</comps>
   </ThingDef>
   
@@ -490,12 +473,6 @@
 			<explosiveDamageType>Bomb</explosiveDamageType>
 			<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
 		</li>
-		<li MayRequire="EBSG.Framework" Class="EBSGFramework.EquipRestrictExtension">
-			<requireOneOfHediffsToEquip>
-                <li>BionicArm</li>
-                <li>ArchotechArm</li>
-            </requireOneOfHediffsToEquip>
-        </li>
 	</comps>
   </ThingDef>
   
