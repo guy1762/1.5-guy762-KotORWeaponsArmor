@@ -51,7 +51,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>
@@ -136,7 +136,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>
@@ -223,7 +223,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>
@@ -312,7 +312,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>

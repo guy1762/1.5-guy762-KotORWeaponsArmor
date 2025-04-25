@@ -60,7 +60,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(170,170,190)</only>
+					<only>(170,170,190)</only> <!-- sith grey -->
 				</li>
 			</options>
 		</colorGenerator>
@@ -1096,7 +1096,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>
@@ -1255,7 +1255,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>
@@ -1413,7 +1413,7 @@
 		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
-			<li>Neck</li>
+			<!-- <li>Neck</li> -->
 			<li>Shoulders</li>
 			<li>Arms</li>
 			<li>Hands</li>
@@ -1605,7 +1605,7 @@
 			</layers>
 			<bodyPartGroups>
 				<li>Torso</li>
-				<li>Neck</li>
+				<!-- <li>Neck</li> -->
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Hands</li>
@@ -1738,7 +1738,7 @@
 			</layers>
 			<bodyPartGroups>
 				<li>Torso</li>
-				<li>Neck</li>
+				<!-- <li>Neck</li> -->
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Hands</li>

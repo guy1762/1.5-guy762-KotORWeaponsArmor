@@ -780,7 +780,7 @@
 	
 	<ThingDef ParentName="guy762_crystalbase">
 		<defName>guy762_crystalitem_firkann</defName>
-		<label>crystal, Firkann</label>
+		<label>Crystal, Firkann</label>
 		<description>This heavy crystal is collected by the natives of Rafa V. If used in lightsaber construction it produces an electrically charged beam that is much easier to manipulate than standard beams.</description>
 		<graphicData>
 		  <texPath>Items/Upgrades/Lightsaber/crystal_8</texPath>
