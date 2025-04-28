@@ -463,7 +463,7 @@
 	<equippedStatOffsets>
       <PsychicSensitivity>0.4</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
 	<costList Inherit="False">
@@ -539,7 +539,7 @@
 	<equippedStatOffsets>
 	  <PsychicSensitivity>0.4</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">1</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
 	<costList Inherit="False">
@@ -605,7 +605,7 @@
 	<equippedStatOffsets>
 	  <PsychicSensitivity>0.4</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
 	<costList Inherit="False">
@@ -687,7 +687,7 @@
 	  <IncomingDamageFactor>-0.05</IncomingDamageFactor>
       <PsychicSensitivity>0.5</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>0.5</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
 	<!--costList Inherit="False" />    DONE VIA PATCH!!!-->

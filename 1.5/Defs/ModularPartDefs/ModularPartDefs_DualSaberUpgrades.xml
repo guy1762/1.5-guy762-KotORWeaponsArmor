@@ -520,7 +520,7 @@
 		<massFactor>0.4</massFactor>
 		<PsychicEntropyRecoveryRateFactor>0.1</PsychicEntropyRecoveryRateFactor>
 		<statModifiers>
-		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.125</SWPotF_ForcePoints_Recovery>
 		</statModifiers>
 		<MeleeDamageMultiplierFactor>0.5</MeleeDamageMultiplierFactor>
 		<costList>

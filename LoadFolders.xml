@@ -14,5 +14,6 @@
 		<li IfModNotActive="guy762.KotORDroids">1.5/AdditionalMods/_NO_KotORDroids</li>
 		
 		<li IfModActive="lee.theforce.lightsaber">1.5/AdditionalMods/_TheForceLightsabers</li>
+		<li IfModNotActive="lee.theforce.lightsaber">1.5/AdditionalMods/_NO_ForceLightsabers</li>
 	</v1.5>
 </loadFolders>

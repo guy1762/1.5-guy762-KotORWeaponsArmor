@@ -1234,7 +1234,7 @@
 	<equippedStatOffsets>
       <PsychicSensitivity>0.1</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.05</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
 	<costList Inherit="False">
@@ -1312,7 +1312,7 @@
 	<equippedStatOffsets>
 		<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
-		<SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+		<SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.05</SWPotF_ForcePoints_Recovery>
 	</equippedStatOffsets>
 	
 	<thingCategories>
@@ -1474,7 +1474,7 @@
     </statBases>
 	<equippedStatOffsets>
 	  <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.05</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
 	<thingCategories>

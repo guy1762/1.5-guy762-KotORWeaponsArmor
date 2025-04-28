@@ -41,7 +41,7 @@
 		<MeleeHitChanceFactor>0.3</MeleeHitChanceFactor>
 		<PsychicEntropyRecoveryRateFactor>0.4</PsychicEntropyRecoveryRateFactor>
 		<statModifiers>
-		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">2</SWPotF_ForcePoints_Recovery>
+		  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">1</SWPotF_ForcePoints_Recovery>
 		</statModifiers>
 		<PsychicSensitivityFactor>0.4</PsychicSensitivityFactor>
 	  </ModularWeapons.ModularPartDef>

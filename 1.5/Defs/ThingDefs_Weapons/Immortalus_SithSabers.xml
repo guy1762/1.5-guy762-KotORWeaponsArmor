@@ -175,7 +175,7 @@
     </statBases>
 	<equippedStatOffsets>
 	  <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
 	</equippedStatOffsets>
 	
 	<costList>
@@ -290,7 +290,7 @@
 	  <PsychicSensitivity>0.3</PsychicSensitivity>
 	  <MeditationFocusGain>0.3</MeditationFocusGain>
 	  <PsychicEntropyRecoveryRate>0.3</PsychicEntropyRecoveryRate>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">1.5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
 	</equippedStatOffsets>
 	
 	<costList>

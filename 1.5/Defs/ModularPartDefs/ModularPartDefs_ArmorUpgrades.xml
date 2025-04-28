@@ -69,7 +69,7 @@
     <EquipDelayFactor>-2</EquipDelayFactor>
 	<PsychicSensitivityFactor>0.1</PsychicSensitivityFactor>
 	<statModifiers>
-      <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">1</SWPotF_ForcePoints_Recovery>
+      <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.1</SWPotF_ForcePoints_Recovery>
     </statModifiers>
     <PsychicEntropyRecoveryRateFactor>0.2</PsychicEntropyRecoveryRateFactor>
 	<costList>

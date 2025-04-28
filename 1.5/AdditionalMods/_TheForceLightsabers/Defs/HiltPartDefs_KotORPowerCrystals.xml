@@ -251,7 +251,7 @@
 	<equippedStatOffsets>
       <MeleeDPS>1.5</MeleeDPS>
 	  <PsychicEntropyRecoveryRateOffset MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">0.1</PsychicEntropyRecoveryRateOffset>
-	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
+	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.125</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 	
     <commonality>0.25</commonality>
