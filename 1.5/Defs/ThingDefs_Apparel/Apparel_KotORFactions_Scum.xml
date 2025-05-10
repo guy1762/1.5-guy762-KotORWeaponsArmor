@@ -637,7 +637,7 @@
 	  
 	  <ThingDef ParentName="KotORArmorModdable_soft">
 		<defName>guy762_Jacket_exchange</defName>
-		<label>exchange overcoat</label>
+		<label>overcoat, Exchange agent's</label>
 		<description>This is an intimidating long coat stereotypically worn by goons and enforcers of the Exchange.</description>
 		<graphicData>
 		  <texPath>Apparel/Robes/trenchcoat/Apparel</texPath>

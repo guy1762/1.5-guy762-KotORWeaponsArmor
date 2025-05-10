@@ -1055,7 +1055,7 @@
   
   <ThingDef ParentName="KotORArmorModdable_soft">
 		<defName>guy762_Jacket_scoundrel</defName>
-		<label>scoundrel's jacket</label>
+		<label>jacket, scoundrel's</label>
 		<description>This is a fine jacket popular with smugglers and scoundrels alike.</description>
 		<graphicData>
 		  <texPath>Apparel/Accessories/jacket_smuggler/Apparel</texPath>
@@ -1261,6 +1261,7 @@
 				<li>KotORClothing_civilian_prole</li>
 				<li>KotORClothing_civilian_mid</li>
 				<li>KotORClothing_civilian_punk</li>
+				<li>NewRepublic_rebeltrooper</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/vest_scout/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -1279,10 +1280,10 @@
 					<weight>10</weight>
 					<only>(125,75,70)</only>       <!--canderous' red-->
 				</li>
-				<li>
-					<weight>10</weight>
-					<only>(130,125,140)</only>         <!-- bley -->
-				</li>
+				<!-- <li> -->
+					<!-- <weight>10</weight> -->
+					<!-- <only>(130,125,140)</only>         bley -->
+				<!-- </li> -->
 				<li>
 					<weight>10</weight>
 					<only>(90,85,65)</only> <!-- grease green -->
