@@ -165,6 +165,10 @@
 				<guy762_GrenadeDamage_thermaldet>0.9</guy762_GrenadeDamage_thermaldet>
 				<Beam MayRequire="Ludeon.RimWorld.Biotech">0.9</Beam>
 				<guy762_RangedDamage_KOstun>0.9</guy762_RangedDamage_KOstun>
+				
+				<Force_LightsaberCut MayRequire="lee.theforce.lightsaber">0.9</Force_LightsaberCut>
+				<Force_SaberSlash MayRequire="lee.theforce.lightsaber">0.9</Force_SaberSlash>
+				<Force_SaberStab MayRequire="lee.theforce.lightsaber">0.9</Force_SaberStab>
 			</damageFactors>
 		  </li>
 		</stages>

@@ -1,0 +1,12 @@
+{
+  "TextureModID": "guy762.kotorweapons",
+  "ItemDefName": "guy762_gamorreanaxe",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.280087531,
+  "ScaleX": 1.5,
+  "ScaleY": 1.5,
+  "BladeStart": 0.196936548,
+  "BladeEnd": 0.8533917,
+  "MeleeWeaponType": 6
+}
