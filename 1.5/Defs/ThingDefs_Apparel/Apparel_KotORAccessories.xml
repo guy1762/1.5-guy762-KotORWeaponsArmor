@@ -938,6 +938,7 @@
 				<!--li>KotORAccessory_trooper</li-->
 				<li>KotORAccessory_civilian</li>
 				<li>SWWarlordsAccessory_scumtrooper_poncho</li>
+				<li>SWWarlordsAccessory_onlyponcho</li>
 				<li>KotORClothing_civilian_hooded</li>
 			</tags>
 			<wornGraphicPath>Apparel/Accessories/poncho/Apparel</wornGraphicPath>
